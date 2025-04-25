@@ -77,7 +77,7 @@ export default function Footer() {
 
             <div className="items-center flex md:flex-row gap-5 justify-center flex-col">
                 <Image
-                    src="/Floorp_Logo_B_Dark.png"
+                    src="/Floorp_Logo_B_Dark.svg"
                     alt="Floorp Logo"
                     width={200}
                     height={200}

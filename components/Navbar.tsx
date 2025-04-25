@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <div className="navbar bg-neutral text-neutral-content shadow-sm flex flex-row justify-between px-4">
             <Image
-                src="/Floorp_Logo_B_Dark.png"
+                src="/Floorp_Logo_B_Dark.svg"
                 alt="Floorp Logo"
                 width={140}
                 height={50}
