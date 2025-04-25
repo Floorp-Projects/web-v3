@@ -1,27 +1,17 @@
 import fs from "fs";
 import path from "path";
 import { GetStaticProps } from "next";
-import Image from "next/image";
-
+import Carousel from "../components/Carousel";
 interface IndexPageProps {
     images: string[];
 }
 
 export default function IndexPage({ images }: IndexPageProps) {
-    console.log("images", images);
-
     return (
         <section className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse gap-10">
-                <div className="w-full max-w-7/12 rounded-box shadow-lg">
-                    <Image
-                        src={"/slideshow/" + images[0]}
-                        alt="Slideshow Image"
-                        className="rounded-box"
-                        layout="responsive"
-                        width={500}
-                        height={300}
-                    />
+                <div className="w-full max-w-7/12">
+                    <Carousel images={images} />
                 </div>
                 <div>
                     <h1 className="text-5xl font-bold">

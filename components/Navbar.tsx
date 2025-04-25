@@ -76,7 +76,7 @@ export default function Navbar() {
                     <li>
                         <details>
                             <summary>Blog & Release Notes</summary>
-                            <ul className="bg-base-100 rounded-t-none p-2 z-[1]">
+                            <ul className="bg-neutral rounded-t-none p-2 z-[1]">
                                 <li>
                                     <a href="https://blog.floorp.app/">Blog</a>
                                 </li>
