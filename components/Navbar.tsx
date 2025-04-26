@@ -4,13 +4,14 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { Menu } from "lucide-react";
-import Image from "next/image";
+import { ThemeImage } from "./ThemeImage";
 
 export default function Navbar() {
     return (
         <div className="navbar bg-neutral text-neutral-content shadow-sm flex flex-row justify-between px-4">
-            <Image
-                src="/Floorp_Logo_B_Dark.svg"
+            <ThemeImage
+                lightSrc="/Floorp_Logo_B_Dark.svg"
+                darkSrc="/Floorp_Logo_B_Dark.svg"
                 alt="Floorp Logo"
                 width={140}
                 height={50}
@@ -118,7 +119,7 @@ export default function Navbar() {
                     </li>
                 </ul>
             </div>
-            <div className="navbar-center hidden md:flex">
+            <div className="navbar-center hidden md:flex items-center gap-4">
                 <a className="btn btn-primary" href="/download">Download</a>
             </div>
         </div>

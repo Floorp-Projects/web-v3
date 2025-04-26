@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import { ThemeImage } from "../components/ThemeImage";
 
 export default function IndexPage() {
     return (
@@ -27,7 +28,6 @@ export default function IndexPage() {
             <section>
                 <div className="flex justify-center mx-4 md:mx-10">
                     <div className="w-full max-w-[90rem] flex flex-col items-center">
-                        {/* ディスプレイ部 */}
                         <div className="relative border-8 border-gray-700 rounded-[0.8rem] shadow-2xl overflow-hidden w-[85%] bg-black">
                             <div className="h-full w-full flex items-center justify-center">
                                 <Image
@@ -52,7 +52,7 @@ export default function IndexPage() {
                     What can Floorp do for you?
                 </h2>
 
-                <div className="card p-4 md:p-8 bg-base-100  shadow-xl rounded-2xl">
+                <div className="card p-4 md:p-8 bg-base-200  shadow-xl rounded-2xl">
                     <div className="card-body">
                         <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-6 mb-6">
                             <h2 className="text-2xl md:text-4xl font-bold flex-1 leading-tight">
@@ -78,7 +78,7 @@ export default function IndexPage() {
                             </a>
                         </div>
 
-                        <div className="mt-6 md:mt-8 md:bg-base-200 rounded-2xl py-8 md:py-12 flex justify-center">
+                        <div className="mt-6 md:mt-8 bg-primary-content rounded-2xl py-8 md:py-12 flex justify-center">
                             <Image
                                 src="/customizeble.svg"
                                 alt="Customization Screenshot"
@@ -92,7 +92,7 @@ export default function IndexPage() {
 
                 <div className="mt-16 md:mt-24">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                        <div className="card p-4 md:p-8 bg-base-100  shadow-xl rounded-2xl">
+                        <div className="card p-4 md:p-8 bg-base-200  shadow-xl rounded-2xl">
                             <div className="card-body">
                                 <div className="flex flex-col gap-4 mb-6">
                                     <h2 className="text-2xl md:text-3xl font-bold leading-tight">
@@ -117,7 +117,7 @@ export default function IndexPage() {
                                     </a>
                                 </div>
 
-                                <div className="mt-6 bg-base-200 rounded-xl p-4 flex justify-center">
+                                <div className="mt-6 bg-primary-content rounded-xl p-4 flex justify-center">
                                     <Image
                                         src="/Workspaces.svg"
                                         alt="Workspaces Feature"
@@ -129,7 +129,7 @@ export default function IndexPage() {
                             </div>
                         </div>
 
-                        <div className="card p-4 md:p-8 bg-base-100  shadow-xl rounded-2xl">
+                        <div className="card p-4 md:p-8 bg-base-200  shadow-xl rounded-2xl">
                             <div className="card-body">
                                 <div className="flex flex-col gap-4 mb-6">
                                     <h2 className="text-2xl md:text-3xl font-bold leading-tight">
@@ -153,7 +153,7 @@ export default function IndexPage() {
                                     </a>
                                 </div>
 
-                                <div className="mt-6 bg-base-200 rounded-xl p-4 flex justify-center">
+                                <div className="mt-6 bg-primary-content rounded-xl p-4 flex justify-center">
                                     <Image
                                         src="/MouseGesture.svg"
                                         alt="Panel Sidebar Feature"
@@ -169,7 +169,7 @@ export default function IndexPage() {
 
                 <div className="mt-16 md:mt-24">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                        <div className="card p-4 md:p-8 bg-base-100  shadow-xl rounded-2xl">
+                        <div className="card p-4 md:p-8 bg-base-200  shadow-xl rounded-2xl">
                             <div className="card-body">
                                 <div className="flex flex-col gap-4 mb-6">
                                     <h2 className="text-2xl md:text-3xl font-bold leading-tight">
@@ -193,7 +193,7 @@ export default function IndexPage() {
                                     </a>
                                 </div>
 
-                                <div className="mt-6 bg-base-200 rounded-xl p-4 flex justify-center">
+                                <div className="mt-6 bg-primary-content rounded-xl p-4 flex justify-center">
                                     <Image
                                         src="/Research.svg"
                                         alt="Research and Development"
@@ -205,7 +205,7 @@ export default function IndexPage() {
                             </div>
                         </div>
 
-                        <div className="card p-4 md:p-8 bg-base-100 shadow-xl rounded-2xl">
+                        <div className="card p-4 md:p-8 bg-base-200 shadow-xl rounded-2xl">
                             <div className="card-body">
                                 <div className="flex flex-col gap-4 mb-6">
                                     <h2 className="text-2xl md:text-3xl font-bold leading-tight">
@@ -230,7 +230,7 @@ export default function IndexPage() {
                                     </a>
                                 </div>
 
-                                <div className="mt-6 bg-base-200 rounded-xl p-4 flex justify-center">
+                                <div className="mt-6 bg-primary-content rounded-xl p-4 flex justify-center">
                                     <Image
                                         src="/update.svg"
                                         alt="Sustainable Web"
@@ -245,17 +245,18 @@ export default function IndexPage() {
                 </div>
             </section>
 
-            <section className="py-16 md:py-24 bg-base-200">
+            <section className="py-12 md:py-24">
                 <div className="container mx-auto px-4 md:px-8 max-w-[90%] lg:max-w-[85%] xl:max-w-[75%]">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 text-center">
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-16 md:mb-24 leading-tight">
                         私たちについて
                     </h2>
 
-                    <div className="bg-base-100 rounded-2xl p-6 md:p-8 shadow-lg">
+                    <div className="bg-base-200 rounded-2xl p-6 md:p-8 shadow-lg">
                         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
                             <div className="flex flex-col items-center md:items-start md:w-1/2">
-                                <Image
-                                    src="/Floorp_Logo_B_Dark.svg"
+                                <ThemeImage
+                                    lightSrc="/Floorp_Logo_B_Light.svg"
+                                    darkSrc="/Floorp_Logo_B_Dark.svg"
                                     alt="Floorp Logo"
                                     width={300}
                                     height={300}
