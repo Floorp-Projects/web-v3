@@ -2,6 +2,7 @@ import type { AppProps } from "next/app";
 import "./globals.css";
 import Layout from "../components/Layout";
 import { appWithTranslation } from "next-i18next";
+import "../i18n";
 
 function App({ Component, pageProps }: AppProps) {
     return (
