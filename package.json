@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "daisyui": "^5.0.28",
+    "i18next": "^25.0.1",
     "lucide-react": "^0.503.0",
     "next": "15.3.1",
+    "next-i18next": "^15.4.2",
     "react": "^19.1.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.5.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
