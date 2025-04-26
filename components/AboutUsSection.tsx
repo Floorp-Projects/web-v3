@@ -1,12 +1,15 @@
 import { ArrowRight } from "lucide-react";
 import { ThemeImage } from "./ThemeImage";
+import { useTranslation } from "next-i18next";
 
 export function AboutUsSection() {
+    const { t } = useTranslation("common");
+
     return (
         <section className="py-12 md:py-24">
             <div className="container mx-auto px-4 md:px-8 max-w-[90%] lg:max-w-[85%] xl:max-w-[75%]">
                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-16 md:mb-24 leading-tight">
-                    私たちについて
+                    {t("aboutUs.title")}
                 </h2>
 
                 <div className="bg-base-200 rounded-2xl p-6 md:p-8 shadow-lg">
@@ -21,11 +24,10 @@ export function AboutUsSection() {
                                 className="mb-6"
                             />
                             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                                Floorp プロジェクト
+                                {t("aboutUs.projectName")}
                             </h3>
                             <p className="text-base mb-6">
-                                Floorp は2021年に日本で始まった、Firefox
-                                派生のオープンソースブラウザプロジェクトです。「ユーザー中心」の理念のもと、より高いカスタマイズ性とプライバシー保護を実現し、ウェブブラウジングの新たな可能性を追求しています。
+                                {t("aboutUs.projectDescription")}
                             </p>
                             <div className="flex flex-wrap gap-3 mt-2">
                                 <a
@@ -34,7 +36,7 @@ export function AboutUsSection() {
                                     rel="noopener noreferrer"
                                     className="btn btn-primary"
                                 >
-                                    GitHub
+                                    {t("aboutUs.github")}
                                 </a>
                                 <a
                                     href="https://docs.floorp.app"
@@ -42,7 +44,7 @@ export function AboutUsSection() {
                                     rel="noopener noreferrer"
                                     className="btn btn-outline"
                                 >
-                                    ドキュメント
+                                    {t("aboutUs.documentation")}
                                 </a>
                             </div>
                         </div>
@@ -50,18 +52,17 @@ export function AboutUsSection() {
                         <div className="md:w-1/2">
                             <div className="prose max-w-none">
                                 <h4 className="text-xl font-semibold mb-3">
-                                    私たちの理念
+                                    {t("aboutUs.philosophy.title")}
                                 </h4>
                                 <p>
-                                    私たちは、ウェブが誰でも自由にアクセスできる場所であるべきだと信じています。
-                                    Floorpは、ユーザーのプライバシーを尊重し、オープンソースの精神を大切にしながら、より良いウェブ体験を提供することを目指しています。
+                                    {t("aboutUs.philosophy.description")}
                                 </p>
 
                                 <h4 className="text-xl font-semibold mb-3 mt-6">
-                                    コミュニティに参加する
+                                    {t("aboutUs.community.title")}
                                 </h4>
                                 <p>
-                                    開発に貢献、翻訳、フィードバックの提供など、さまざまな形でFloorpプロジェクトに参加できます。私たちはオープンソースの精神を大切にし、コミュニティからの貢献を歓迎しています。
+                                    {t("aboutUs.community.description")}
                                 </p>
 
                                 <div className="mt-4">
@@ -72,7 +73,7 @@ export function AboutUsSection() {
                                         className="inline-flex items-center gap-2 text-primary hover:underline"
                                     >
                                         <ArrowRight size={16} />
-                                        Discordコミュニティに参加
+                                        {t("aboutUs.community.joinButton")}
                                     </a>
                                 </div>
                             </div>

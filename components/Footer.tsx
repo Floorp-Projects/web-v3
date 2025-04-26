@@ -5,28 +5,31 @@
 
 import { Ampersand } from "lucide-react";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Footer() {
+    const { t } = useTranslation("common");
+
     return (
         <footer className="bg-neutral p-10 flex flex-col items-center gap-10">
             <div className="sm:footer-horizontal footer flex flex-col justify-center md:gap-50 sm:gap-20 gap-10 sm:flex-row text-neutral-content text-center">
                 <nav>
-                    <h6 className="footer-title">Resources</h6>
+                    <h6 className="footer-title">{t("footer.resources")}</h6>
                     <a
                         className="link link-hover"
                         href="https://docs.floorp.app"
                     >
-                        Floorp Docs
+                        {t("footer.docs")}
                     </a>
                     <a
                         className="link link-hover"
                         href="https://blog.floorp.app"
                     >
-                        Floorp Blog
+                        {t("footer.blog")}
                     </a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">SNS</h6>
+                    <h6 className="footer-title">{t("footer.sns")}</h6>
                     <a
                         className="link link-hover"
                         href="https://twitter.com/Floorp_Browser"
@@ -53,24 +56,24 @@ export default function Footer() {
                     </a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Legal</h6>
+                    <h6 className="footer-title">{t("footer.legal")}</h6>
                     <a
                         className="link link-hover"
                         href="https://floorp.app/terms"
                     >
-                        Terms of use
+                        {t("footer.terms")}
                     </a>
                     <a
                         className="link link-hover"
                         href="https://floorp.app/privacy"
                     >
-                        Privacy policy
+                        {t("footer.privacy")}
                     </a>
                     <a
                         className="link link-hover"
                         href="https://floorp.app/license"
                     >
-                        LICENSE
+                        {t("footer.license")}
                     </a>
                 </nav>
             </div>
@@ -102,8 +105,7 @@ export default function Footer() {
 
             <div className="text-center text-neutral-content">
                 <p>
-                    © 2025 Floorp Projects And Collaborate With Ablaze. All
-                    rights reserved.
+                    {t("footer.copyright")}
                 </p>
             </div>
         </footer>

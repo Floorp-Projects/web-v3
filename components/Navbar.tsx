@@ -5,122 +5,145 @@
 
 import { Menu } from "lucide-react";
 import { ThemeImage } from "./ThemeImage";
+import { useTranslation } from "next-i18next";
+import Link from "next/link";
 
 export default function Navbar() {
+    const { t } = useTranslation("common");
+
     return (
-        <div className="navbar bg-neutral text-neutral-content shadow-sm flex flex-row justify-between px-4">
-            <ThemeImage
-                lightSrc="/Floorp_Logo_B_Dark.svg"
-                darkSrc="/Floorp_Logo_B_Dark.svg"
-                alt="Floorp Logo"
-                width={140}
-                height={50}
-                className="h-auto"
-            />
+        <div className="navbar bg-neutral text-neutral-content shadow-sm px-4 py-6">
+            <div className="flex flex-row justify-between items-center w-full max-w-[80rem] mx-auto">
+                <Link href="/" className="btn btn-ghost normal-case text-xl">
+                    <ThemeImage
+                        lightSrc="/Floorp_Logo_B_Dark.svg"
+                        darkSrc="/Floorp_Logo_B_Dark.svg"
+                        alt="Floorp Logo"
+                        width={200}
+                        height={50}
+                        className="h-auto"
+                    />
+                </Link>
 
-            <div className="dropdown dropdown-left md:hidden">
-                <label tabIndex={0} className="btn btn-ghost">
-                    <Menu className="w-6 h-6" />
-                </label>
-                <ul
-                    tabIndex={0}
-                    className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-neutral rounded-box w-52"
-                >
-                    <li>
-                        <a href="/download">Download</a>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Blog & Release Notes</summary>
-                            <ul className="rounded-t-none p-2 z-[1]">
-                                <li>
-                                    <a href="https://blog.floorp.app/">Blog</a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://blog.floorp.app/category/notice/"
-                                        target="_blank"
-                                    >
-                                        News
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://blog.floorp.app/releases/">
-                                        Release Notes
-                                    </a>
-                                </li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Resources</summary>
-                            <ul className="p-2">
-                                <li>
-                                    <a href="https://docs.floorp.app">
-                                        Floorp Docs
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/Floorp-Projects/Floorp">
-                                        GitHub
-                                    </a>
-                                </li>
-                            </ul>
-                        </details>
-                    </li>
-                </ul>
-            </div>
+                <div className="dropdown dropdown-left md:hidden">
+                    <label tabIndex={0} className="btn btn-ghost">
+                        <Menu className="w-6 h-6" />
+                    </label>
+                    <ul
+                        tabIndex={0}
+                        className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-neutral rounded-box w-52"
+                    >
+                        <li>
+                            <Link href="/download">{t("navbar.download")}</Link>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>
+                                    {t("navbar.blogAndReleaseNotes")}
+                                </summary>
+                                <ul className="rounded-t-none p-2 z-[1]">
+                                    <li>
+                                        <a href="https://blog.floorp.app/">
+                                            {t("navbar.blog")}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://blog.floorp.app/category/notice/"
+                                            target="_blank"
+                                        >
+                                            {t("navbar.news")}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://blog.floorp.app/releases/">
+                                            {t("navbar.releaseNotes")}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>{t("navbar.resources")}</summary>
+                                <ul className="p-2">
+                                    <li>
+                                        <a href="https://docs.floorp.app">
+                                            {t("footer.docs")}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Floorp-Projects/Floorp">
+                                            GitHub
+                                        </a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
 
-            <div className="navbar-center hidden md:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li>
-                        <details>
-                            <summary>Blog & Release Notes</summary>
-                            <ul className="bg-neutral rounded-t-none p-2 z-[1]">
-                                <li>
-                                    <a href="https://blog.floorp.app/">Blog</a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://blog.floorp.app/category/notice/"
-                                        target="_blank"
-                                    >
-                                        News
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://blog.floorp.app/releases/">
-                                        Release Notes
-                                    </a>
-                                </li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Documents</summary>
-                            <ul className="bg-neutral rounded-t-none p-2 z-[1]">
-                                <li>
-                                    <a
-                                        href="https://github.com/Floorp-Projects/Floorp"
-                                        target="_blank"
-                                    >
-                                        GitHub
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://docs.floorp.app">
-                                        Floorp Docs
-                                    </a>
-                                </li>
-                            </ul>
-                        </details>
-                    </li>
-                </ul>
-            </div>
-            <div className="navbar-center hidden md:flex items-center gap-4">
-                <a className="btn btn-primary" href="/download">Download</a>
+                <div className="navbar-center hidden md:flex">
+                    <ul className="menu menu-horizontal px-1">
+                        <li>
+                            <details>
+                                <summary className="font-bold text-lg">
+                                    {t("navbar.blogAndReleaseNotes")}
+                                </summary>
+                                <ul className="bg-neutral rounded-t-none p-2 z-[1]">
+                                    <li>
+                                        <a href="https://blog.floorp.app/">
+                                            {t("navbar.blog")}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://blog.floorp.app/category/notice/"
+                                            target="_blank"
+                                        >
+                                            {t("navbar.news")}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://blog.floorp.app/releases/">
+                                            {t("navbar.releaseNotes")}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary className="font-bold text-lg">
+                                    {t("navbar.resources")}
+                                </summary>
+                                <ul className="bg-neutral rounded-t-none p-2 z-[1]">
+                                    <li>
+                                        <a
+                                            href="https://github.com/Floorp-Projects/Floorp"
+                                            target="_blank"
+                                        >
+                                            GitHub
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://docs.floorp.app">
+                                            {t("footer.docs")}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+                <div className="navbar-center hidden md:flex items-center gap-4">
+                    <a
+                        className="btn btn-primary font-bold text-lg px-6 py-3"
+                        href="/download"
+                    >
+                        {t("navbar.download")}
+                    </a>
+                </div>
             </div>
         </div>
     );

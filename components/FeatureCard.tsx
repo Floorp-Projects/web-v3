@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "next-i18next";
 
 interface FeatureCardProps {
     title: string;
@@ -56,40 +57,38 @@ export function FeatureCard({
 }
 
 export function FeatureCardSection() {
+    const { t } = useTranslation("common");
+
     const features = [
         {
-            title: "多様なウェブページの閲覧方法を提供",
-            description:
-                "Floorp はタブグループに加え、ログイン情報を分離できるコンテナー機能を統合したワークスペース機能を搭載。さらに、ウェブパネルを利用して、SNS やチャットに簡単にアクセスできます。",
+            title: t("featureCards.browsing.title"),
+            description: t("featureCards.browsing.description"),
             linkUrl: "https://docs.floorp.app/docs/features/workspaces",
-            linkText: "Floorp の独自機能について詳しく",
+            linkText: t("featureCards.browsing.linkText"),
             imageSrc: "/Workspaces.svg",
             imageAlt: "Workspaces Feature",
         },
         {
-            title: "様々な操作方法をサポート",
-            description:
-                "マウスジェスチャーやカスタマイズ可能なキーボードショートカットを使用して、より効率的にブラウジングできます。もちろん、マウス操作でも簡単に操作できるように設計されています。",
+            title: t("featureCards.controls.title"),
+            description: t("featureCards.controls.description"),
             linkUrl: "https://docs.floorp.app/docs/features/panel-sidebar",
-            linkText: "Floorp のジェスチャー機能について詳しく",
+            linkText: t("featureCards.controls.linkText"),
             imageSrc: "/MouseGesture.svg",
             imageAlt: "Mouse Gesture Feature",
         },
         {
-            title: "開発・研究志向",
-            description:
-                "Floorpは実験的なブラウザー開発を積極的に行っています。新しい技術やアイデアを日々取り入れ、コミュニティからのフィードバックをもとに精力的に改善を続けるブラウザーです。",
+            title: t("featureCards.development.title"),
+            description: t("featureCards.development.description"),
             linkUrl: "https://docs.floorp.app/docs/values/research",
-            linkText: "Floorp の開発体制について詳しく",
+            linkText: t("featureCards.development.linkText"),
             imageSrc: "/research.svg",
             imageAlt: "Research and Development",
         },
         {
-            title: "持続可能なウェブを目指して",
-            description:
-                "ユーザーの権利を尊重し、オープンで持続可能なウェブエコシステムの構築に貢献します。次世代に繋ぐインターネットの未来を共に創りましょう。",
+            title: t("featureCards.sustainable.title"),
+            description: t("featureCards.sustainable.description"),
             linkUrl: "https://docs.floorp.app/docs/values/sustainable-web",
-            linkText: "Floorp が行っていること",
+            linkText: t("featureCards.sustainable.linkText"),
             imageSrc: "/update.svg",
             imageAlt: "Sustainable Web",
         },

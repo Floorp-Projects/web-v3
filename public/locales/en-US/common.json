@@ -1,0 +1,72 @@
+{
+    "navbar": {
+        "download": "Download",
+        "blogAndReleaseNotes": "Blog & Release Notes",
+        "blog": "Blog",
+        "news": "News",
+        "releaseNotes": "Release Notes",
+        "resources": "Resources"
+    },
+    "heroSection": {
+        "title": "Unlimited Customization For Everyone",
+        "description": "Enable more advanced customization than your default browser. Try Floorp, based on the smart Firefox, which enhances functionality and flexibility while maintaining security and privacy.",
+        "downloadButton": "Download"
+    },
+    "descriptionSection": {
+        "title": "What can Floorp do for you?"
+    },
+    "customizationCard": {
+        "title": "Flexible UI Customization",
+        "description": "Floorp's most distinctive feature is its customizability. Floorp is the first Firefox-based browser to enable UI customization, designed so that anyone can easily adjust their browsing experience to their preferences and access the web with ease.",
+        "learnMore": "Learn More About Customization"
+    },
+    "featureCards": {
+        "browsing": {
+            "title": "Various Ways to Browse the Web",
+            "description": "Floorp features workspaces that integrate tab groups with containers that can separate login information. Additionally, you can easily access social media and chats through web panels.",
+            "linkText": "Learn More About Floorp's Unique Features"
+        },
+        "controls": {
+            "title": "Various Control Methods Supported",
+            "description": "Browse more efficiently with mouse gestures and customizable keyboard shortcuts. Of course, it's also designed to be easily operated with a mouse.",
+            "linkText": "Learn More About Floorp's Gesture Features"
+        },
+        "development": {
+            "title": "Development & Research Focused",
+            "description": "Floorp actively pursues experimental browser development. It's a browser that continuously incorporates new technologies and ideas, and energetically improves based on community feedback.",
+            "linkText": "Learn More About Floorp's Development System"
+        },
+        "sustainable": {
+            "title": "Aiming for a Sustainable Web",
+            "description": "We respect users' rights and contribute to building an open and sustainable web ecosystem. Let's create the future of the internet together for the next generation.",
+            "linkText": "What Floorp Is Doing"
+        }
+    },
+    "aboutUs": {
+        "title": "About Us",
+        "projectName": "Floorp Project",
+        "projectDescription": "Floorp is an open-source browser project derived from Firefox that started in Japan in 2021. Under the philosophy of 'user-centered', it achieves higher customizability and privacy protection, pursuing new possibilities in web browsing.",
+        "github": "GitHub",
+        "documentation": "Documentation",
+        "philosophy": {
+            "title": "Our Philosophy",
+            "description": "We believe the web should be a place where everyone can freely access. Floorp aims to provide a better web experience while respecting users' privacy and cherishing the spirit of open source."
+        },
+        "community": {
+            "title": "Join the Community",
+            "description": "You can participate in the Floorp project in various ways, including contributing to development, translation, and providing feedback. We value the spirit of open source and welcome contributions from the community.",
+            "joinButton": "Join the Discord Community"
+        }
+    },
+    "footer": {
+        "resources": "Resources",
+        "docs": "Floorp Docs",
+        "blog": "Floorp Blog",
+        "sns": "SNS",
+        "legal": "Legal",
+        "terms": "Terms of use",
+        "privacy": "Privacy policy",
+        "license": "LICENSE",
+        "copyright": "© 2025 Floorp Projects And Collaborate With Ablaze. All rights reserved."
+    }
+}

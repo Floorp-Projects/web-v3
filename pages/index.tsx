@@ -2,8 +2,10 @@ import React from "react";
 import { HeroSection } from "../components/HeroSection";
 import { AboutUsSection } from "../components/AboutUsSection";
 import { DescriptionSection } from "../components/DescriptionSection";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import type { GetStaticProps } from "next";
 
-export default function IndexPage() {
+export default function Home() {
     return (
         <>
             <HeroSection />
@@ -12,3 +14,11 @@ export default function IndexPage() {
         </>
     );
 }
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+    return {
+        props: {
+            ...(await serverSideTranslations(locale || "en-US", ["common"])),
+        },
+    };
+};

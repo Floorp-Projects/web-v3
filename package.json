@@ -11,6 +11,8 @@
   "dependencies": {
     "daisyui": "^5.0.28",
     "i18next": "^25.0.1",
+    "i18next-browser-languagedetector": "^8.0.5",
+    "i18next-http-backend": "^3.0.2",
     "lucide-react": "^0.503.0",
     "next": "15.3.1",
     "next-i18next": "^15.4.2",

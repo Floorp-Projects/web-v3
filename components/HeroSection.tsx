@@ -1,24 +1,24 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export function HeroSection() {
+    const { t } = useTranslation("common");
+
     return (
         <>
             <section className="hero h-[65vh] px-4 mt-4 md:mt-12">
                 <div className="hero-content text-center flex-col gap-10 md:gap-12">
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mx-auto">
-                        Unlimited Customization For Everyone
+                        {t("heroSection.title")}
                     </h1>
                     <p className="max-w-2xl text-base md:text-xl lg:text-2xl">
-                        Enable more advanced customization than your default
-                        browser. Try Floorp, based on the smart Firefox, which
-                        enhances functionality and flexibility while maintaining
-                        security and privacy.
+                        {t("heroSection.description")}
                     </p>
                     <a
                         href="/download"
                         className="btn btn-primary font-bold text-lg px-6 py-3"
                     >
-                        Download
+                        {t("heroSection.downloadButton")}
                     </a>
                 </div>
             </section>

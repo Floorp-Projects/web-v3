@@ -1,0 +1,72 @@
+{
+    "navbar": {
+        "download": "ダウンロード",
+        "blogAndReleaseNotes": "ブログとリリースノート",
+        "blog": "ブログ",
+        "news": "ニュース",
+        "releaseNotes": "リリースノート",
+        "resources": "リソース"
+    },
+    "heroSection": {
+        "title": "カスタマイズをみんなの手に",
+        "description": "あなたのデフォルトブラウザより高度なカスタマイズを可能に。スマートなFirefoxをベースにしたFloorpは、セキュリティとプライバシーを維持しながら、機能性と柔軟性を向上させます。",
+        "downloadButton": "ダウンロード"
+    },
+    "descriptionSection": {
+        "title": "Floorpができること"
+    },
+    "customizationCard": {
+        "title": "柔軟なUIカスタマイズ",
+        "description": "Floorp の一番の特徴は、カスタマイズ性です。Floorp は Firefox 系で初めて、UI のカスタマイズを可能にしたブラウザーであり、誰もが簡単に自分の好みに合わせてブラウジング体験を調整でき、誰でも簡単にウェブにアクセスできるよう設計されています。",
+        "learnMore": "カスタマイズについて詳しく"
+    },
+    "featureCards": {
+        "browsing": {
+            "title": "多様なウェブページの閲覧方法を提供",
+            "description": "Floorp はタブグループに加え、ログイン情報を分離できるコンテナー機能を統合したワークスペース機能を搭載。さらに、ウェブパネルを利用して、SNS やチャットに簡単にアクセスできます。",
+            "linkText": "Floorp の独自機能について詳しく"
+        },
+        "controls": {
+            "title": "様々な操作方法をサポート",
+            "description": "マウスジェスチャーやカスタマイズ可能なキーボードショートカットを使用して、より効率的にブラウジングできます。もちろん、マウス操作でも簡単に操作できるように設計されています。",
+            "linkText": "Floorp のジェスチャー機能について詳しく"
+        },
+        "development": {
+            "title": "開発・研究志向",
+            "description": "Floorpは実験的なブラウザー開発を積極的に行っています。新しい技術やアイデアを日々取り入れ、コミュニティからのフィードバックをもとに精力的に改善を続けるブラウザーです。",
+            "linkText": "Floorp の開発体制について詳しく"
+        },
+        "sustainable": {
+            "title": "持続可能なウェブを目指して",
+            "description": "ユーザーの権利を尊重し、オープンで持続可能なウェブエコシステムの構築に貢献します。次世代に繋ぐインターネットの未来を共に創りましょう。",
+            "linkText": "Floorp が行っていること"
+        }
+    },
+    "aboutUs": {
+        "title": "私たちについて",
+        "projectName": "Floorp プロジェクト",
+        "projectDescription": "Floorp は2021年に日本で始まった、Firefox 派生のオープンソースブラウザプロジェクトです。「ユーザー中心」の理念のもと、より高いカスタマイズ性とプライバシー保護を実現し、ウェブブラウジングの新たな可能性を追求しています。",
+        "github": "GitHub",
+        "documentation": "ドキュメント",
+        "philosophy": {
+            "title": "私たちの理念",
+            "description": "私たちは、ウェブが誰でも自由にアクセスできる場所であるべきだと信じています。Floorpは、ユーザーのプライバシーを尊重し、オープンソースの精神を大切にしながら、より良いウェブ体験を提供することを目指しています。"
+        },
+        "community": {
+            "title": "コミュニティに参加する",
+            "description": "開発に貢献、翻訳、フィードバックの提供など、さまざまな形でFloorpプロジェクトに参加できます。私たちはオープンソースの精神を大切にし、コミュニティからの貢献を歓迎しています。",
+            "joinButton": "Discordコミュニティに参加"
+        }
+    },
+    "footer": {
+        "resources": "リソース",
+        "docs": "Floorp ドキュメント",
+        "blog": "Floorp ブログ",
+        "sns": "SNS",
+        "legal": "法的情報",
+        "terms": "利用規約",
+        "privacy": "プライバシーポリシー",
+        "license": "ライセンス",
+        "copyright": "© 2025 Floorp プロジェクト・Ablazeとの協力のもと。すべての権利を保有。"
+    }
+}
