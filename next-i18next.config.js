@@ -9,4 +9,5 @@ module.exports = {
   reloadOnPrerender: process.env.NODE_ENV === "development",
   localePath: "./public/locales",
   react: { useSuspense: false },
+  localeDetection: true,
 };
