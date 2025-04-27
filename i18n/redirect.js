@@ -7,7 +7,15 @@ export const useRedirect = (to) => {
   to = to || router.asPath;
 
   useEffect(() => {
+    if (
+      router.pathname.startsWith("/[locale]") ||
+      router.asPath.match(/^\/[a-zA-Z]{2}-[a-zA-Z]{2}(\/|$)/)
+    ) {
+      return;
+    }
+
     const detectedLng = lngDetector.detect();
+
     if (to.startsWith("/" + detectedLng) && router.route === "/404") {
       router.replace("/" + detectedLng + router.route);
       return;
@@ -15,7 +23,7 @@ export const useRedirect = (to) => {
 
     lngDetector.cache(detectedLng);
     router.replace("/" + detectedLng + to);
-  });
+  }, [router.asPath, to, router]);
 
-  return <></>;
+  return null;
 };

@@ -15,6 +15,9 @@ i18n
       order: ["querystring", "cookie", "localStorage", "navigator", "htmlTag"],
       caches: ["cookie"],
     },
+    react: {
+      useSuspense: false,
+    },
   });
 
 export default i18n;
