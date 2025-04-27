@@ -20,6 +20,27 @@
         "description": "Floorp の一番の特徴は、カスタマイズ性です。Floorp は Firefox 系で初めて、UI のカスタマイズを可能にしたブラウザーであり、誰もが簡単に自分の好みに合わせてブラウジング体験を調整でき、誰でも簡単にウェブにアクセスできるよう設計されています。",
         "learnMore": "カスタマイズについて詳しく"
     },
+    "downloadPage": {
+        "title": "Floorpブラウザをダウンロード",
+        "subtitle": "基本的なデスクトッププラットフォームに対応",
+        "windowsDownload": "Windows版をダウンロード",
+        "macDownload": "macOS版をダウンロード",
+        "linuxDownload": "Linux版をダウンロード",
+        "otherPlatforms": "その他のプラットフォーム",
+        "winget": "Winget (Windows)",
+        "flatpak": "Flatpak (Linux)",
+        "brew": "Brew (macOS)",
+        "sourceCode": "ソースコード",
+        "latestVersion": "最新バージョン",
+        "releaseDate": "リリース日",
+        "systemRequirements": "システム要件",
+        "windows": "Windows 10・11",
+        "mac": "macOS 10.15 以降",
+        "linux": "Ubuntu 20.04 または他の現代的なディストリビューション",
+        "releaseNotes": "リリースノート",
+        "installInstructions": "インストール手順",
+        "downloadHashes": "ハッシュファイルをダウンロード"
+    },
     "featureCards": {
         "browsing": {
             "title": "多様なウェブページの閲覧方法を提供",
@@ -60,7 +81,7 @@
     },
     "footer": {
         "resources": "リソース",
-        "docs": "Floorp ドキュメント",
+        "docs": "Floorp Docs",
         "blog": "Floorp ブログ",
         "sns": "SNS",
         "legal": "法的情報",

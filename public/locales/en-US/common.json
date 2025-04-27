@@ -20,6 +20,28 @@
         "description": "Floorp's most distinctive feature is its customizability. Floorp is the first Firefox-based browser to enable UI customization, designed so that anyone can easily adjust their browsing experience to their preferences and access the web with ease.",
         "learnMore": "Learn More About Customization"
     },
+    "downloadPage": {
+        "title": "Download Floorp Browser",
+        "subtitle": "Supports basic desktop platforms",
+        "windowsDownload": "Download for Windows",
+        "macDownload": "Download for macOS",
+        "linuxDownload": "Download for Linux",
+        "otherPlatforms": "Other Platforms",
+        "flatpak": "Flatpak (Linux)",
+        "winget": "Winget (Windows)",
+        "brew": "Brew (macOS)",
+        "aptDeb": "PPA (Debian/Ubuntu)",
+        "sourceCode": "Source Code",
+        "latestVersion": "Latest Version",
+        "releaseDate": "Release Date",
+        "systemRequirements": "System Requirements",
+        "windows": "Windows 10 or later",
+        "mac": "macOS 10.15 or later",
+        "linux": "Ubuntu 20.04 or other modern distributions",
+        "releaseNotes": "Release Notes",
+        "installInstructions": "Installation Instructions",
+        "downloadHashes": "Download hashes.txt"
+    },
     "featureCards": {
         "browsing": {
             "title": "Various Ways to Browse the Web",

@@ -14,7 +14,7 @@ export default function Navbar() {
     return (
         <div className="navbar bg-neutral text-neutral-content shadow-sm px-4 py-6">
             <div className="flex flex-row justify-between items-center w-full max-w-[80rem] mx-auto">
-                <Link href="/" className="btn btn-ghost normal-case text-xl">
+                <Link href="/" className="normal-case text-xl">
                     <ThemeImage
                         lightSrc="/Floorp_Logo_B_Dark.svg"
                         darkSrc="/Floorp_Logo_B_Dark.svg"
