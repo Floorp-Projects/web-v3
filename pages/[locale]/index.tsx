@@ -5,10 +5,16 @@ import { DescriptionSection } from "../../components/DescriptionSection";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import type { GetStaticPaths, GetStaticProps } from "next";
 import { i18n } from "../../next-i18next.config";
+import Head from "next/head";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+    const { t } = useTranslation("common");
     return (
         <>
+            <Head>
+                <title>{t("heroSection.pageTitle")}</title>
+            </Head>
             <HeroSection />
             <DescriptionSection />
             <AboutUsSection />

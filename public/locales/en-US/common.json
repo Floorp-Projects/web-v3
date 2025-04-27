@@ -10,7 +10,8 @@
     "heroSection": {
         "title": "Unlimited Customization For Everyone",
         "description": "Enable more advanced customization than your default browser. Try Floorp, based on the smart Firefox, which enhances functionality and flexibility while maintaining security and privacy.",
-        "downloadButton": "Download"
+        "downloadButton": "Download",
+        "pageTitle": "Floorp Browser"
     },
     "descriptionSection": {
         "title": "What can Floorp do for you?"
@@ -21,6 +22,7 @@
         "learnMore": "Learn More About Customization"
     },
     "downloadPage": {
+        "pageTitle": "Download Floorp Browser",
         "title": "Download Floorp Browser",
         "subtitle": "Supports basic desktop platforms",
         "windowsDownload": "Download for Windows",

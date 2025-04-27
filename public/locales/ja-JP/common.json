@@ -10,7 +10,8 @@
     "heroSection": {
         "title": "カスタマイズをみんなの手に",
         "description": "あなたのデフォルトブラウザより高度なカスタマイズを可能に。スマートなFirefoxをベースにしたFloorpは、セキュリティとプライバシーを維持しながら、機能性と柔軟性を向上させます。",
-        "downloadButton": "ダウンロード"
+        "downloadButton": "ダウンロード",
+        "pageTitle": "Floorp ブラウザ"
     },
     "descriptionSection": {
         "title": "Floorpができること"
@@ -21,6 +22,7 @@
         "learnMore": "カスタマイズについて詳しく"
     },
     "downloadPage": {
+        "pageTitle": "Floorp ブラウザをダウンロード",
         "title": "Floorpブラウザをダウンロード",
         "subtitle": "基本的なデスクトッププラットフォームに対応",
         "windowsDownload": "Windows版をダウンロード",

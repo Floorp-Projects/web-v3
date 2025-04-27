@@ -3,12 +3,14 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Head from "next/head";
 import { DownloadSection } from "../../components/DownloadSection";
 import { i18n } from "../../next-i18next.config";
+import { useTranslation } from "react-i18next";
 
 export default function DownloadPage() {
+    const { t } = useTranslation("common");
     return (
         <>
             <Head>
-                <title>Download Floorp Browser</title>
+                <title>{t("downloadPage.pageTitle")}</title>
                 <meta
                     name="description"
                     content="Download Floorp - a fast, customizable, and privacy-focused browser based on Firefox."
