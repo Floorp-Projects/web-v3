@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
+import Link from "next/link";
 
 export function HeroSection() {
     const { t } = useTranslation("common");
@@ -14,12 +15,12 @@ export function HeroSection() {
                     <p className="max-w-2xl text-base md:text-xl lg:text-2xl">
                         {t("heroSection.description")}
                     </p>
-                    <a
+                    <Link
                         href="/download"
                         className="btn btn-primary font-bold text-lg px-6 py-3"
                     >
                         {t("heroSection.downloadButton")}
-                    </a>
+                    </Link>
                 </div>
             </section>
 

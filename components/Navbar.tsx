@@ -137,12 +137,12 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar-center hidden md:flex items-center gap-4">
-                    <a
+                    <Link
                         className="btn btn-primary font-bold text-lg px-6 py-3"
                         href="/download"
                     >
                         {t("navbar.download")}
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
