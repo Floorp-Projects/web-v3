@@ -6,6 +6,7 @@
 import { Ampersand } from "lucide-react";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
+import Link from "next/link";
 
 export default function Footer() {
     const { t } = useTranslation("common");
@@ -57,24 +58,24 @@ export default function Footer() {
                 </nav>
                 <nav>
                     <h6 className="footer-title">{t("footer.legal")}</h6>
-                    <a
+                    <Link
                         className="link link-hover"
-                        href="https://floorp.app/terms"
+                        href="/terms"
                     >
                         {t("footer.terms")}
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="link link-hover"
-                        href="https://floorp.app/privacy"
+                        href="/privacy"
                     >
                         {t("footer.privacy")}
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="link link-hover"
-                        href="https://floorp.app/license"
+                        href="https://mozilla.org/en-US/MPL/2.0/"
                     >
                         {t("footer.license")}
-                    </a>
+                    </Link>
                 </nav>
             </div>
 

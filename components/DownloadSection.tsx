@@ -113,6 +113,8 @@ export function DownloadSection() {
                 {error && (
                     <div className="alert alert-error mb-8">
                         <svg
+                            role="img"
+                            aria-label="Error"
                             xmlns="http://www.w3.org/2000/svg"
                             className="stroke-current shrink-0 h-6 w-6"
                             fill="none"
@@ -139,6 +141,19 @@ export function DownloadSection() {
                     </div>
                 )}
 
+                {/* Terms agreement notice */}
+                <div className="text-center mb-8">
+                    <p className="text-sm opacity-80">
+                        {t("downloadPage.termsAgreement")}{" "}
+                        <Link href="/terms" className="link link-primary">
+                            {t("footer.terms")}
+                        </Link>{" "}
+                        <Link href="/privacy" className="link link-primary">
+                            {t("footer.privacy")}
+                        </Link>
+                    </p>
+                </div>
+
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
                     {/* Windows Download */}
                     <div className="card bg-base-200 shadow-xl">
@@ -152,9 +167,8 @@ export function DownloadSection() {
                             <div className="card-actions">
                                 <a
                                     href={getWindowsDownloadUrl()}
-                                    className={`btn btn-primary btn-lg w-full ${
-                                        isDownloadDisabled ? "btn-disabled" : ""
-                                    }`}
+                                    className={`btn btn-primary btn-lg w-full ${isDownloadDisabled ? "btn-disabled" : ""
+                                        }`}
                                 >
                                     {t("downloadPage.windowsDownload")}
                                 </a>
@@ -175,9 +189,8 @@ export function DownloadSection() {
                             <div className="card-actions">
                                 <a
                                     href={getMacOSDownloadUrl()}
-                                    className={`btn btn-primary btn-lg w-full ${
-                                        isDownloadDisabled ? "btn-disabled" : ""
-                                    }`}
+                                    className={`btn btn-primary btn-lg w-full ${isDownloadDisabled ? "btn-disabled" : ""
+                                        }`}
                                 >
                                     {t("downloadPage.macDownload")}
                                 </a>
@@ -198,17 +211,15 @@ export function DownloadSection() {
                             <div className="card-actions flex-col gap-2">
                                 <a
                                     href={getLinuxDownloadUrl()}
-                                    className={`btn btn-primary w-full ${
-                                        isDownloadDisabled ? "btn-disabled" : ""
-                                    }`}
+                                    className={`btn btn-primary w-full ${isDownloadDisabled ? "btn-disabled" : ""
+                                        }`}
                                 >
                                     {t("downloadPage.linuxDownload")} (x86_64)
                                 </a>
                                 <a
                                     href={getLinuxArmDownloadUrl()}
-                                    className={`btn btn-outline w-full ${
-                                        isDownloadDisabled ? "btn-disabled" : ""
-                                    }`}
+                                    className={`btn btn-outline w-full ${isDownloadDisabled ? "btn-disabled" : ""
+                                        }`}
                                 >
                                     {t("downloadPage.linuxDownload")} (ARM64)
                                 </a>
@@ -236,35 +247,35 @@ export function DownloadSection() {
                                         </div>
                                     )
                                     : error
-                                    ? (
-                                        <div className="alert alert-warning">
-                                            {error}
-                                        </div>
-                                    )
-                                    : (
-                                        <table className="table w-full">
-                                            <tbody>
-                                                <tr>
-                                                    <td className="font-semibold">
-                                                        {t("downloadPage.latestVersion")}
-                                                    </td>
-                                                    <td>{version || "N/A"}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td className="font-semibold">
-                                                        {t("downloadPage.releaseDate")}
-                                                    </td>
-                                                    <td>
-                                                        {formatDate(
-                                                            releaseInfo
-                                                                ?.published_at ||
+                                        ? (
+                                            <div className="alert alert-warning">
+                                                {error}
+                                            </div>
+                                        )
+                                        : (
+                                            <table className="table w-full">
+                                                <tbody>
+                                                    <tr>
+                                                        <td className="font-semibold">
+                                                            {t("downloadPage.latestVersion")}
+                                                        </td>
+                                                        <td>{version || "N/A"}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className="font-semibold">
+                                                            {t("downloadPage.releaseDate")}
+                                                        </td>
+                                                        <td>
+                                                            {formatDate(
+                                                                releaseInfo
+                                                                    ?.published_at ||
                                                                 "",
-                                                        )}
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    )}
+                                                            )}
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        )}
                             </div>
 
                             <div className="flex flex-col gap-4 mt-6">
@@ -278,9 +289,8 @@ export function DownloadSection() {
 
                                 <a
                                     href={getHashesUrl()}
-                                    className={`btn btn-outline flex items-center gap-2 ${
-                                        isDownloadDisabled ? "btn-disabled" : ""
-                                    }`}
+                                    className={`btn btn-outline flex items-center gap-2 ${isDownloadDisabled ? "btn-disabled" : ""
+                                        }`}
                                 >
                                     <FileDigit size={18} />
                                     {t("downloadPage.downloadHashes")}

@@ -42,7 +42,8 @@
         "linux": "Ubuntu 20.04 or other modern distributions",
         "releaseNotes": "Release Notes",
         "installInstructions": "Installation Instructions",
-        "downloadHashes": "Download hashes.txt"
+        "downloadHashes": "Download hashes.txt",
+        "termsAgreement": "By downloading Floorp products, you agree to our Terms of Service and Privacy Policy."
     },
     "featureCards": {
         "browsing": {
@@ -81,6 +82,16 @@
             "description": "You can participate in the Floorp project in various ways, including contributing to development, translation, and providing feedback. We value the spirit of open source and welcome contributions from the community.",
             "joinButton": "Join the Discord Community"
         }
+    },
+    "terms": {
+        "pageTitle": "Terms of Service - Floorp Browser",
+        "title": "Terms of Service",
+        "content": "<p>These Terms of Service (the \"Terms\") govern your use of the Floorp browser and related services. By using Floorp, you agree to these Terms.</p><p>Floorp is an open-source browser derived from Firefox. The Floorp software is made available under the terms of various open source licenses, including the Mozilla Public License. This means you may use, copy, modify, and distribute Floorp to others, as long as you follow the open source licenses and the Floorp Project's trademark guidelines.</p><p>Regarding your use of Floorp, please note the following:</p><ol><li>The software is provided \"as is\" without warranties of any kind, either express or implied.</li><li>To the extent permitted by applicable law, the Floorp Project will not be liable for any inability to use Floorp or for any limitations of Floorp.</li><li>You are responsible for the consequences of your use of Floorp.</li><li>The Floorp Project respects your privacy as outlined in our Privacy Policy.</li></ol><p>The Floorp Project may update these Terms from time to time. The updated Terms will be posted online. If the changes are substantive, we will announce the update through our usual channels for such announcements, such as blog posts or forums. Your continued use of Floorp after the effective date of such changes constitutes your acceptance of such changes.</p>"
+    },
+    "privacy": {
+        "pageTitle": "Privacy Policy - Floorp Browser",
+        "title": "Privacy Policy",
+        "content": "<p>At Floorp, we believe that privacy is fundamental to a healthy internet experience. This policy explains what data we collect, why we collect it, and how we use it.</p><p>'Personal information' means information that either directly identifies you (like your name or email address) or can be reasonably linked or combined to identify you.</p><p>Floorp is designed with privacy in mind. By default, we minimize data collection and do not track your browsing habits. Any telemetry or crash reports are strictly opt-in, requiring your explicit consent.</p><p><strong>Essential Telemetry Data</strong>: We may collect certain technical and settings data to provide core functionality of the Floorp browser. Some features require essential telemetry data to function properly. For example, checking for updates, providing security features, and verifying extension compatibility. These essential data points are kept to a minimum necessary to provide the functionality.</p><p><strong>Optional Telemetry Data</strong>: Other usage and diagnostic data is only collected if you consent to it. This data helps us improve Floorp and fix bugs.</p><p>When you enable specific features like sync services, some data may be processed to provide these services. This data is encrypted, and we only collect what's necessary for the functionality.</p><p>Your data belongs to you. You always have the choice and control over how your personal data is handled. You can change your privacy settings at any time.</p><p>We do not sell your personal data to third parties. For more information or questions about our privacy practices, please contact us through our support channels.</p><p>This Privacy Policy may be reviewed and updated periodically. If there are significant changes, we will announce them through blog posts, forums, or other channels.</p>"
     },
     "footer": {
         "resources": "Resources",
