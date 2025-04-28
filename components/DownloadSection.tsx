@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "next-i18next";
 import Link from "next/link";
+import Image from "next/image";
 import {
-    Apple,
     Beer,
     FileDigit,
     FileText,
     Github,
-    Grid2x2,
     Package,
     SquareTerminal,
-    Terminal,
 } from "lucide-react";
+
+import WindowsIcon from "../public/Floorp_Platform_Windows_Gradient.png";
+import MacIcon from "../public/Floorp_Platform_Mac_Gradient.png";
+import LinuxIcon from "../public/Floorp_Platform_Linux_Gradient.png";
 
 interface GitHubRelease {
     tag_name: string;
@@ -162,7 +164,13 @@ export function DownloadSection() {
                                 Windows
                             </h2>
                             <div className="mb-4">
-                                <Grid2x2 size={48} className="mx-auto mb-2" />
+                                <Image
+                                    src={WindowsIcon}
+                                    alt="Windows"
+                                    width={64}
+                                    height={64}
+                                    className="mx-auto mb-2"
+                                />
                             </div>
                             <div className="card-actions">
                                 <a
@@ -184,7 +192,13 @@ export function DownloadSection() {
                         <div className="card-body items-center text-center">
                             <h2 className="card-title text-2xl mb-4">macOS</h2>
                             <div className="mb-4">
-                                <Apple size={48} className="mx-auto mb-2" />
+                                <Image
+                                    src={MacIcon}
+                                    alt="macOS"
+                                    width={64}
+                                    height={64}
+                                    className="mx-auto mb-2"
+                                />
                             </div>
                             <div className="card-actions">
                                 <a
@@ -206,7 +220,13 @@ export function DownloadSection() {
                         <div className="card-body items-center text-center">
                             <h2 className="card-title text-2xl mb-4">Linux</h2>
                             <div className="mb-4">
-                                <Terminal size={48} className="mx-auto mb-2" />
+                                <Image
+                                    src={LinuxIcon}
+                                    alt="Linux"
+                                    width={64}
+                                    height={64}
+                                    className="mx-auto mb-2"
+                                />
                             </div>
                             <div className="card-actions flex-col gap-2">
                                 <a
