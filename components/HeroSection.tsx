@@ -31,7 +31,7 @@ export function HeroSection() {
                         <div className="relative border-8 border-gray-700 rounded-[0.8rem] shadow-2xl overflow-hidden w-[85%] bg-black">
                             <div className="h-full w-full flex items-center justify-center">
                                 <Image
-                                    src="/screenshot.png"
+                                    src="/screenshot.avif"
                                     alt="Floorp Screenshot"
                                     width={1300}
                                     height={900}
