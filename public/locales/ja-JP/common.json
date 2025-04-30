@@ -69,7 +69,7 @@
     "aboutUs": {
         "title": "私たちについて",
         "projectName": "Floorp プロジェクト",
-        "projectDescription": "Floorp は 2021 年に日本で始まった、Firefox 派生のオープンソースブラウザプロジェクトです。「ユーザー中心」の理念のもと、より高いカスタマイズ性とプライバシー保護を実現し、ウェブブラウジングの新たな可能性を追求しています。",
+        "projectDescription": "Floorp は 2021 年に日本で始まった、Firefox 派生のオープンソースブラウザープロジェクトです。「ユーザー中心」の理念のもと、より高いカスタマイズ性とプライバシー保護を実現し、ウェブブラウジングの新たな可能性を追求しています。",
         "github": "GitHub",
         "documentation": "ドキュメント",
         "philosophy": {
