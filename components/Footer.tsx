@@ -51,7 +51,7 @@ export default function Footer() {
                     </a>
                     <a
                         className="link link-hover"
-                        href="https://discord.gg/NSbeFYt45Y"
+                        href="https://discord.floorp.app"
                     >
                         Discord
                     </a>
