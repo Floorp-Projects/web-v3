@@ -67,7 +67,7 @@ export function AboutUsSection() {
 
                                 <div className="mt-4">
                                     <a
-                                        href="https://discord.floorp.app"
+                                        href="https://floorp.app/discord"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-2 text-primary hover:underline"
