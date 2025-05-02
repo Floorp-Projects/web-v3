@@ -21,6 +21,17 @@
         "description": "Floorp's most distinctive feature is its customizability. Floorp is the first Firefox-based browser to enable UI customization, designed so that anyone can easily adjust their browsing experience to their preferences and access the web with ease.",
         "learnMore": "Learn More About Customization"
     },
+    "discord": {
+        "pageTitle": "Join Floorp Discord",
+        "heading": "Join Our Discord Community",
+        "description": "Connect with the Floorp community, get support, and contribute to the project.",
+        "joinButton": "Join Discord Server",
+        "whyJoin": "Why Join Our Discord?",
+        "reason1": "Get instant support from the community and developers",
+        "reason2": "Stay updated with the latest Floorp news and updates",
+        "reason3": "Participate in discussions about new features and improvements",
+        "reason4": "Connect with other Floorp users from around the world"
+    },
     "downloadPage": {
         "pageTitle": "Download Floorp Browser",
         "title": "Download Floorp Browser",

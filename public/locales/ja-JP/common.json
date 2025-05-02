@@ -21,6 +21,17 @@
         "description": "Floorp の一番の特徴は、カスタマイズ性です。Floorp は Firefox 系で初めて、UI のカスタマイズを可能にしたブラウザーであり、誰もが簡単に自分の好みに合わせてブラウジング体験を調整でき、誰でも簡単にウェブにアクセスできるよう設計されています。",
         "learnMore": "カスタマイズについて詳しく"
     },
+    "discord": {
+        "pageTitle": "Floorp の Discord に参加しよう",
+        "heading": "Floorp の Discord コミュニティに参加しよう",
+        "description": "Floorp コミュニティとサポートを受け、プロジェクトに貢献しましょう。",
+        "joinButton": "Discord サーバーに参加",
+        "whyJoin": "なぜ Floorp の Discord に参加すべきか？",
+        "reason1": "コミュニティと開発者から即時サポートを受けられます",
+        "reason2": "最新の Floorp ニュースとアップデートを受け取れます",
+        "reason3": "新しい機能や改善について議論に参加できます",
+        "reason4": "世界中の Floorp ユーザーと繋がれます"
+    },
     "downloadPage": {
         "pageTitle": "Floorp ブラウザーをダウンロード",
         "title": "Floorp ブラウザーをダウンロード",
