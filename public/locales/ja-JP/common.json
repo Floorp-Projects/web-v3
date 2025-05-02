@@ -9,7 +9,7 @@
     },
     "heroSection": {
         "title": "カスタマイズをみんなの手に",
-        "description": "あなたのデフォルトブラウザーより高度なカスタマイズを可能に。スマートな Firefox をベースにした Floorp は、セキュリティとプライバシーを維持しながら、機能性と柔軟性を向上させます。",
+        "description": "お使いのブラウザーよりも高度なカスタマイズを可能に。スマートな Firefox をベースにした Floorp は、セキュリティとプライバシーを維持しながら、機能性と柔軟性を向上させます。",
         "downloadButton": "ダウンロード",
         "pageTitle": "Floorp ブラウザー"
     },
@@ -24,9 +24,9 @@
     "discord": {
         "pageTitle": "Floorp の Discord に参加しよう",
         "heading": "Floorp の Discord コミュニティに参加しよう",
-        "description": "Floorp コミュニティとサポートを受け、プロジェクトに貢献しましょう。",
+        "description": "Floorp コミュニティと交流し、サポートを受け、プロジェクトに貢献しましょう。",
         "joinButton": "Discord サーバーに参加",
-        "whyJoin": "なぜ Floorp の Discord に参加すべきか？",
+        "whyJoin": "Floorp の Discord に参加すると",
         "reason1": "コミュニティと開発者から即時サポートを受けられます",
         "reason2": "最新の Floorp ニュースとアップデートを受け取れます",
         "reason3": "新しい機能や改善について議論に参加できます",
@@ -89,7 +89,7 @@
         },
         "community": {
             "title": "コミュニティに参加する",
-            "description": "開発に貢献、翻訳、フィードバックの提供など、さまざまな形でFloorpプロジェクトに参加できます。私たちはオープンソースの精神を大切にし、コミュニティからの貢献を歓迎しています。",
+            "description": "開発に貢献、翻訳、フィードバックの提供など、さまざまな形で Floorp プロジェクトに参加できます。私たちはオープンソースの精神を大切にし、コミュニティからの貢献を歓迎しています。",
             "joinButton": "Discord コミュニティに参加"
         }
     },
