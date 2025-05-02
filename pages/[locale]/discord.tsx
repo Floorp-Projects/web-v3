@@ -29,8 +29,7 @@ export default function Discord() {
                     </p>
                     <div className="mb-16">
                         <a
-                            href="https://discord.gg/floorp"
-                            target="_blank"
+                            href="https://discord.gg/NUvsATZha2"
                             rel="noopener noreferrer"
                             className="btn btn-primary btn-lg"
                         >
