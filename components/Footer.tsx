@@ -85,7 +85,6 @@ export default function Footer() {
                     alt="Floorp Logo"
                     width={200}
                     height={200}
-                    className="rounded-full"
                 />
 
                 <Ampersand />
@@ -99,7 +98,6 @@ export default function Footer() {
                         alt="Ablaze Logo"
                         width={200}
                         height={200}
-                        className="rounded-full"
                     />
                 </a>
             </div>
