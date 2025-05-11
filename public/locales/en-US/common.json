@@ -39,6 +39,7 @@
         "windowsDownload": "Download for Windows",
         "macDownload": "Download for macOS",
         "linuxDownload": "Download for Linux",
+        "portableVersion": "Download Portable Version",
         "otherPlatforms": "Other Platforms",
         "flatpak": "Flatpak (Linux)",
         "winget": "Winget (Windows)",
