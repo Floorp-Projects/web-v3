@@ -12,15 +12,15 @@ export default function Navbar() {
     const { t } = useTranslation("common");
 
     return (
-        <div className="navbar bg-neutral text-neutral-content shadow-sm px-4 py-6">
+        <div className="navbar bg-neutral text-neutral-content shadow-sm px-4 py-2">
             <div className="flex flex-row justify-between items-center w-full max-w-[80rem] mx-auto">
                 <Link href="/" className="normal-case text-xl">
                     <ThemeImage
                         lightSrc="/Floorp_Logo_B_Dark.svg"
                         darkSrc="/Floorp_Logo_B_Dark.svg"
                         alt="Floorp Logo"
-                        width={200}
-                        height={50}
+                        width={150}
+                        height={25}
                         className="h-auto"
                     />
                 </Link>
@@ -49,14 +49,14 @@ export default function Navbar() {
                                     </li>
                                     <li>
                                         <a
-                                            href="https://blog.floorp.app/category/notice/"
+                                            href="https://blog.floorp.app/categories/notice/"
                                             target="_blank"
                                         >
                                             {t("navbar.news")}
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://blog.floorp.app/releases/">
+                                        <a href="https://blog.floorp.app/release/">
                                             {t("navbar.releaseNotes")}
                                         </a>
                                     </li>
@@ -105,7 +105,7 @@ export default function Navbar() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://blog.floorp.app/releases/">
+                                        <a href="https://blog.floorp.app/release/">
                                             {t("navbar.releaseNotes")}
                                         </a>
                                     </li>

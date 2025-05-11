@@ -300,7 +300,7 @@ export function DownloadSection() {
 
                             <div className="flex flex-col gap-4 mt-6">
                                 <Link
-                                    href="/release-notes"
+                                    href="https://blog.floorp.app/release"
                                     className="btn btn-outline flex items-center gap-2"
                                 >
                                     <FileText size={18} />
