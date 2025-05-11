@@ -39,6 +39,7 @@
         "windowsDownload": "Windows 版をダウンロード",
         "macDownload": "macOS 版をダウンロード",
         "linuxDownload": "Linux 版をダウンロード",
+        "portableVersion": "ポータブル版",
         "otherPlatforms": "その他のプラットフォーム",
         "winget": "Winget (Windows)",
         "flatpak": "Flatpak (Linux)",
