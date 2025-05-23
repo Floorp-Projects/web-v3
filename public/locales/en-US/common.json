@@ -55,7 +55,16 @@
         "releaseNotes": "Release Notes",
         "installInstructions": "Installation Instructions",
         "downloadHashes": "Download hashes.txt",
-        "termsAgreement": "By downloading Floorp products, you agree to our Terms of Service and Privacy Policy."
+        "termsAgreement": "By downloading Floorp products, you agree to our Terms of Service and Privacy Policy.",
+        "releasePreview": "Release Preview",
+        "releasePreviewDescription": "Try out the next version of Floorp before it's officially released. These preview builds may contain experimental features and improvements.",
+        "downloadRC": "Download RC",
+        "previewWarning": "Warning: Preview builds may be unstable and could contain bugs.",
+        "previewNotice": "This is a Release Candidate (RC) build for testing purposes.",
+        "previewFeatures": "New Features in v12.0.0:",
+        "previewSize": "Download Size",
+        "previewDate": "Build Date",
+        "previewSupport": "Limited support available for preview builds"
     },
     "featureCards": {
         "browsing": {

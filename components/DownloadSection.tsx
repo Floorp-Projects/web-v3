@@ -410,6 +410,153 @@ export function DownloadSection() {
                         </div>
                     </div>
                 </div>
+
+                {/* Release Preview Section */}
+                <div className="mt-16">
+                    <div className="text-center my-8">
+                        <h2 className="text-3xl font-bold mb-4">
+                            {t("downloadPage.releasePreview")}
+                        </h2>
+                        <p className="text-lg opacity-80 mb-4">
+                            {t("downloadPage.releasePreviewDescription")}
+                        </p>
+                        <div className="alert alert-warning max-w-2xl mx-auto mb-4">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="stroke-current shrink-0 h-6 w-6"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+                                />
+                            </svg>
+                            <span>{t("downloadPage.previewWarning")}</span>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {/* Windows Preview */}
+                        <div className="card bg-base-200 shadow-xl">
+                            <div className="card-body items-center text-center">
+                                <h3 className="card-title text-xl mb-4">
+                                    Windows RC
+                                </h3>
+                                <div className="mb-4">
+                                    <Image
+                                        src={WindowsIcon}
+                                        alt="Windows"
+                                        width={48}
+                                        height={48}
+                                        className="mx-auto"
+                                    />
+                                </div>
+                                <div className="card-actions flex-col gap-2 w-full">
+                                    <div className="text-sm opacity-70 mb-2">
+                                        <p>
+                                            {t("downloadPage.previewSize")}: 82
+                                            MB
+                                        </p>
+                                        <p>
+                                            {t("downloadPage.previewDate")}:
+                                            2025-05-22
+                                        </p>
+                                    </div>
+                                    <a
+                                        href="https://github.com/Floorp-Projects/Floorp/releases/download/v12.0.0-rc/floorp-win64-installer.exe"
+                                        className="btn btn-primary w-full"
+                                    >
+                                        {t("downloadPage.downloadRC")} (82 MB)
+                                    </a>
+                                </div>
+                                <div className="text-xs mt-2 opacity-70">
+                                    {t("downloadPage.previewSupport")}
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* macOS Preview */}
+                        <div className="card bg-base-200 shadow-xl">
+                            <div className="card-body items-center text-center">
+                                <h3 className="card-title text-xl mb-4">
+                                    macOS RC
+                                </h3>
+                                <div className="mb-4">
+                                    <Image
+                                        src={MacIcon}
+                                        alt="macOS"
+                                        width={48}
+                                        height={48}
+                                        className="mx-auto"
+                                    />
+                                </div>
+                                <div className="card-actions flex-col gap-2 w-full">
+                                    <div className="text-sm opacity-70 mb-2">
+                                        <p>
+                                            {t("downloadPage.previewSize")}: 161
+                                            MB
+                                        </p>
+                                        <p>
+                                            {t("downloadPage.previewDate")}:
+                                            2025-05-22
+                                        </p>
+                                    </div>
+                                    <a
+                                        href="https://github.com/Floorp-Projects/Floorp/releases/download/v12.0.0-rc/floorp-macOS-universal.dmg"
+                                        className="btn btn-primary w-full"
+                                    >
+                                        {t("downloadPage.downloadRC")} (161 MB)
+                                    </a>
+                                </div>
+                                <div className="text-xs mt-2 opacity-70">
+                                    {t("downloadPage.previewSupport")}
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Linux Preview */}
+                        <div className="card bg-base-200 shadow-xl">
+                            <div className="card-body items-center text-center">
+                                <h3 className="card-title text-xl mb-4">
+                                    Linux RC
+                                </h3>
+                                <div className="mb-4">
+                                    <Image
+                                        src={LinuxIcon}
+                                        alt="Linux"
+                                        width={48}
+                                        height={48}
+                                        className="mx-auto"
+                                    />
+                                </div>
+                                <div className="card-actions flex-col gap-2 w-full">
+                                    <div className="text-sm opacity-70 mb-2">
+                                        <p>
+                                            {t("downloadPage.previewSize")}:
+                                            77.2 MB
+                                        </p>
+                                        <p>
+                                            {t("downloadPage.previewDate")}:
+                                            2025-05-22
+                                        </p>
+                                    </div>
+                                    <a
+                                        href="https://github.com/Floorp-Projects/Floorp/releases/download/v12.0.0-rc/floorp-linux-amd64.tar.xz"
+                                        className="btn btn-primary w-full"
+                                    >
+                                        {t("downloadPage.downloadRC")} (77.2 MB)
+                                    </a>
+                                </div>
+                                <div className="text-xs mt-2 opacity-70">
+                                    {t("downloadPage.previewSupport")}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );

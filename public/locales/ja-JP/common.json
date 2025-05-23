@@ -54,7 +54,16 @@
         "releaseNotes": "リリースノート",
         "installInstructions": "インストール手順",
         "downloadHashes": "ハッシュファイルをダウンロード",
-        "termsAgreement": "Floorp 製品群をダウンロードした場合、利用規約とプライバシポリシーに同意したことになります。"
+        "termsAgreement": "Floorp 製品群をダウンロードした場合、利用規約とプライバシポリシーに同意したことになります。",
+        "releasePreview": "リリースプレビュー",
+        "releasePreviewDescription": "次期バージョンの Floorp を正式リリース前にお試しいただけます。これらのプレビュービルドには実験的な機能や改善が含まれている場合があります。",
+        "downloadRC": "RC版をダウンロード",
+        "previewWarning": "警告：プレビュービルドは不安定な場合があり、バグを含む可能性があります。",
+        "previewNotice": "これはテスト用のリリース候補（RC）ビルドです。",
+        "previewFeatures": "v12.0.0の新機能：",
+        "previewSize": "ダウンロードサイズ",
+        "previewDate": "ビルド日時",
+        "previewSupport": "プレビュービルドのサポートは限定的です"
     },
     "featureCards": {
         "browsing": {
