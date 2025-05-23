@@ -56,7 +56,7 @@ export default function Navbar() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://blog.floorp.app/release/">
+                                        <a href="https://blog.floorp.app/categories/release/">
                                             {t("navbar.releaseNotes")}
                                         </a>
                                     </li>
@@ -98,14 +98,14 @@ export default function Navbar() {
                                     </li>
                                     <li>
                                         <a
-                                            href="https://blog.floorp.app/category/notice/"
+                                            href="https://blog.floorp.app/categories/notice/"
                                             target="_blank"
                                         >
                                             {t("navbar.news")}
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://blog.floorp.app/release/">
+                                        <a href="https://blog.floorp.app/categories/release/">
                                             {t("navbar.releaseNotes")}
                                         </a>
                                     </li>
