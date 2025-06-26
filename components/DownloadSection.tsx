@@ -243,7 +243,7 @@ export function DownloadSection() {
                             <div className="card-actions flex-col gap-2">
                                 <a
                                     href={getLinuxDownloadUrl()}
-                                    className={`btn btn-primary w-full ${
+                                    className={`btn btn-primary btn-lg w-full ${
                                         isDownloadDisabled ? "btn-disabled" : ""
                                     }`}
                                 >
