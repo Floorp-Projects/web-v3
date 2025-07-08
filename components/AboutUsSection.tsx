@@ -58,6 +58,18 @@ export function AboutUsSection() {
                                     {t("aboutUs.philosophy.description")}
                                 </p>
 
+                                <div className="mt-4">
+                                    <a
+                                        href="https://github.com/sponsors/surapunoyousei"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 text-primary hover:underline"
+                                    >
+                                        <ArrowRight size={16} />
+                                        {t("aboutUs.philosophy.donateButton")}
+                                    </a>
+                                </div>
+
                                 <h4 className="text-xl font-semibold mb-3 mt-6">
                                     {t("aboutUs.community.title")}
                                 </h4>

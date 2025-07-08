@@ -96,7 +96,8 @@
         "documentation": "Documentation",
         "philosophy": {
             "title": "Our Philosophy",
-            "description": "We believe the web should be a place where everyone can freely access. Floorp aims to provide a better web experience while respecting users' privacy and cherishing the spirit of open source."
+            "description": "We believe the web should be a place where everyone can freely access. Floorp aims to provide a better web experience while respecting users' privacy and cherishing the spirit of open source.",
+            "donateButton": "Donate via GitHub Sponsors"
         },
         "community": {
             "title": "Join the Community",
