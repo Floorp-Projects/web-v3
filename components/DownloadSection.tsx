@@ -83,6 +83,11 @@ export function DownloadSection() {
         return `https://github.com/Floorp-Projects/Floorp/releases/download/${releaseInfo?.tag_name}/floorp-win64.installer.exe`;
     };
 
+    const getWindowsStubDownloadUrl = () => {
+        if (!version) return "#";
+        return `https://github.com/Floorp-Projects/Floorp/releases/download/${releaseInfo?.tag_name}/floorp-stub.installer.exe`;
+    };
+
     const getPortableDownloadUrl = () => {
         return "https://github.com/Floorp-Projects/Floorp-Portable-v2/releases/latest/download/floorp-win64.portable.7z";
     };
@@ -93,13 +98,13 @@ export function DownloadSection() {
     };
 
     const getLinuxDownloadUrl = () => {
-        if (!version) return "#";
-        return `https://github.com/Floorp-Projects/Floorp/releases/download/${releaseInfo?.tag_name}/floorp-${version}.linux-x86_64.tar.bz2`;
+        if (!releaseInfo?.tag_name) return "#";
+        return `https://github.com/Floorp-Projects/Floorp/releases/download/${releaseInfo.tag_name}/floorp-linux-amd64.tar.xz`;
     };
 
     const getLinuxArmDownloadUrl = () => {
-        if (!version) return "#";
-        return `https://github.com/Floorp-Projects/Floorp/releases/download/${releaseInfo?.tag_name}/floorp-${version}.linux-aarch64.tar.bz2`;
+        if (!releaseInfo?.tag_name) return "#";
+        return `https://github.com/Floorp-Projects/Floorp/releases/download/${releaseInfo.tag_name}/floorp-linux-arm64.tar.xz`;
     };
 
     const isDownloadDisabled = !releaseInfo || error;
@@ -178,7 +183,7 @@ export function DownloadSection() {
                             </div>
                             <div className="card-actions flex-col gap-2 w-full">
                                 <a
-                                    href={getWindowsDownloadUrl()}
+                                    href={getWindowsStubDownloadUrl()}
                                     className={`btn btn-primary btn-lg w-full ${
                                         isDownloadDisabled ? "btn-disabled" : ""
                                     }`}
