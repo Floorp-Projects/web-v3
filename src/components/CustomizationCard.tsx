@@ -25,7 +25,10 @@ export function CustomizationCard() {
             rel="noopener noreferrer"
           >
             {t("customizationCard.learnMore")}
-            <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            <ArrowRight
+              size={20}
+              className="group-hover:translate-x-1 transition-transform"
+            />
           </a>
         </div>
 
