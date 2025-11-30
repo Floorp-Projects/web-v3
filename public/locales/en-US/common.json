@@ -1,0 +1,188 @@
+{
+    "navbar": {
+        "download": "Download",
+        "blogAndReleaseNotes": "Blog & Release Notes",
+        "blog": "Blog",
+        "news": "News",
+        "releaseNotes": "Release Notes",
+        "resources": "Resources"
+    },
+    "heroSection": {
+        "title": "Unlimited Customization For Everyone",
+        "description": "Enable more advanced customization than your default browser. Try Floorp, based on the smart Firefox, which enhances functionality and flexibility while maintaining security and privacy.",
+        "downloadButton": "Download",
+        "pageTitle": "Floorp Browser"
+    },
+    "descriptionSection": {
+        "title": "What can Floorp do for you?"
+    },
+    "customizationCard": {
+        "title": "Flexible UI Customization",
+        "description": "Floorp's most distinctive feature is its customizability. Floorp is the first Firefox-based browser to enable UI customization, designed so that anyone can easily adjust their browsing experience to their preferences and access the web with ease.",
+        "learnMore": "Learn More About Customization"
+    },
+    "discord": {
+        "pageTitle": "Join Floorp Discord",
+        "heading": "Join Our Discord Community",
+        "description": "Connect with the Floorp community, get support, and contribute to the project.",
+        "joinButton": "Join Discord Server",
+        "whyJoin": "Why Join Our Discord?",
+        "reason1": "Get instant support from the community and developers",
+        "reason2": "Stay updated with the latest Floorp news and updates",
+        "reason3": "Participate in discussions about new features and improvements",
+        "reason4": "Connect with other Floorp users from around the world"
+    },
+    "downloadPage": {
+        "pageTitle": "Download Floorp Browser",
+        "title": "Download Floorp Browser",
+        "subtitle": "Supports basic desktop platforms",
+        "recommended": "Recommended for you",
+        "downloadFor": "Download for {{title}}",
+        "windowsDownload": "Download for Windows",
+        "windowsDownloadFull": "Legacy Installer",
+        "windowsStubInstaller": "Download for Windows",
+        "macDownload": "Download for macOS",
+        "linuxDownload": "Download for Linux (AMD64)",
+        "linuxAArch64Download": "Download for Linux (AArch64)",
+        "portableVersion": "Download Portable Version",
+        "otherPlatforms": "Other Platforms",
+        "winget": "Winget (Windows)",
+        "flatpak": "Flatpak (Linux)",
+        "brew": "Brew (macOS)",
+        "aptDeb": "PPA (Debian/Ubuntu)",
+        "sourceCode": "Source Code",
+        "latestVersion": "Latest Version",
+        "releaseDate": "Release Date",
+        "systemRequirements": "System Requirements",
+        "windows": "Windows 10 or later",
+        "mac": "macOS 10.15 or later",
+        "linux": "Ubuntu 20.04 or other modern distributions",
+        "releaseNotes": "Release Notes",
+        "installInstructions": "Installation Instructions",
+        "downloadHashes": "Download hashes.txt",
+        "termsAgreement": "By downloading Floorp products, you agree to our Terms of Service and Privacy Policy.",
+        "releasePreview": "Release Preview",
+        "releasePreviewDescription": "Try out the next version of Floorp before it's officially released. These preview builds may contain experimental features and improvements.",
+        "downloadRC": "Download RC",
+        "previewWarning": "Warning: Preview builds may be unstable and could contain bugs.",
+        "previewNotice": "This is a Release Candidate (RC) build for testing purposes.",
+        "previewFeatures": "New Features in v12.0.0:",
+        "previewSize": "Download Size",
+        "previewDate": "Build Date",
+        "previewSupport": "Limited support available for preview builds",
+        "windowsReq": "Windows 10 / 11",
+        "macUniversal": "Universal",
+        "linuxArch": "x86_64",
+        "linuxPkg": "Flatpak / PPA / Tarball",
+        "windowsInstaller": "Windows Installer",
+        "onlineInstaller": "Online Installer (Recommended)",
+        "smallSize": "Small Size",
+        "onlineInstallerDesc": "Automatically downloads the latest version for your system.",
+        "offlineInstaller": "Offline Installer",
+        "fullSize": "Full Size",
+        "offlineInstallerDesc": "Contains all necessary files. Good for offline installation.",
+        "reqWindows": "Windows 10 (1809+) or Windows 11",
+        "reqProc": "64-bit processor (x86_64)",
+        "reqRam": "4GB RAM recommended",
+        "otherOptions": "Other Options",
+        "portableDesc": "No installation required",
+        "commandLine": "Command line",
+        "macInstaller": "macOS Installer",
+        "universalBinary": "Universal Binary",
+        "intelSilicon": "Intel & Apple Silicon",
+        "macDesc": "Compatible with both Intel-based Macs and Apple Silicon (M1/M2/M3) Macs.",
+        "macInstallGuide": "Drag the Floorp icon to your Applications folder after opening the disk image.",
+        "reqMac": "macOS 10.15 (Catalina) or later",
+        "reqMacProc": "Intel or Apple Silicon processor",
+        "homebrew": "Homebrew",
+        "viewHomebrew": "View on Homebrew",
+        "linuxPackages": "Linux Packages",
+        "tarballX64": "Tarball (x86_64)",
+        "standard": "Standard",
+        "downloadTar": "Download .tar.xz",
+        "tarballArm": "Tarball (AArch64)",
+        "arm": "ARM",
+        "downloadTarArm": "Download .tar.xz (ARM)",
+        "packageManagers": "Package Managers",
+        "view": "View",
+        "ppa": "PPA (Ubuntu/Debian)",
+        "setup": "Setup",
+        "archLinux": "For Arch Linux users, Floorp is available in the AUR as `floorp-bin`.",
+        "wingetDesc": "Windows Package Manager",
+        "viewWinstall": "View on Winstall",
+        "brewDesc": "macOS Package Manager",
+        "viewCask": "View Cask",
+        "flatpakDesc": "Linux Application Sandboxing",
+        "viewFlathub": "View on Flathub",
+        "legalPrivacy": "Legal & Privacy"
+    },
+    "featureCards": {
+        "browsing": {
+            "title": "Various Ways to Browse the Web",
+            "description": "Floorp features workspaces that integrate tab groups with containers that can separate login information. Additionally, you can easily access social media and chats through web panels.",
+            "linkText": "Learn More About Floorp's Unique Features"
+        },
+        "controls": {
+            "title": "Various Control Methods Supported",
+            "description": "Browse more efficiently with mouse gestures and customizable keyboard shortcuts. Of course, it's also designed to be easily operated with a mouse.",
+            "linkText": "Learn More About Floorp's Gesture Features"
+        },
+        "development": {
+            "title": "Development & Research Focused",
+            "description": "Floorp actively pursues experimental browser development. It's a browser that continuously incorporates new technologies and ideas, and energetically improves based on community feedback.",
+            "linkText": "Learn More About Floorp's Development System"
+        },
+        "sustainable": {
+            "title": "Aiming for a Sustainable Web",
+            "description": "We respect users' rights and contribute to building an open and sustainable web ecosystem. Let's create the future of the internet together for the next generation.",
+            "linkText": "What Floorp Is Doing"
+        }
+    },
+    "aboutUs": {
+        "title": "About Us",
+        "projectName": "Floorp Project",
+        "projectDescription": "Floorp is an open-source browser project derived from Firefox that started in Japan in 2021. Under the philosophy of 'user-centered', it achieves higher customizability and privacy protection, pursuing new possibilities in web browsing.",
+        "github": "GitHub",
+        "documentation": "Documentation",
+        "philosophy": {
+            "title": "Our Philosophy",
+            "description": "We believe the web should be a place where everyone can freely access. Floorp aims to provide a better web experience while respecting users' privacy and cherishing the spirit of open source.",
+            "donateButton": "Donate via GitHub Sponsors"
+        },
+        "community": {
+            "title": "Join the Community",
+            "description": "You can participate in the Floorp project in various ways, including contributing to development, translation, and providing feedback. We value the spirit of open source and welcome contributions from the community.",
+            "joinButton": "Join the Discord Community"
+        }
+    },
+    "terms": {
+        "pageTitle": "Terms of Service - Floorp Browser",
+        "title": "Terms of Service",
+        "content": "<p>These Terms of Service (the \"Terms\") govern your use of the Floorp browser and related services. By using Floorp, you agree to these Terms.</p><p>Floorp is an open-source browser derived from Firefox. The Floorp software is made available under the terms of various open source licenses, including the Mozilla Public License. This means you may use, copy, modify, and distribute Floorp to others, as long as you follow the open source licenses and the Floorp Project's trademark guidelines.</p><p>Regarding your use of Floorp, please note the following:</p><ol><li>The software is provided \"as is\" without warranties of any kind, either express or implied.</li><li>To the extent permitted by applicable law, the Floorp Project will not be liable for any inability to use Floorp or for any limitations of Floorp.</li><li>You are responsible for the consequences of your use of Floorp.</li><li>The Floorp Project respects your privacy as outlined in our Privacy Policy.</li></ol><p>The Floorp Project may update these Terms from time to time. The updated Terms will be posted online. If the changes are substantive, we will announce the update through our usual channels for such announcements, such as blog posts or forums. Your continued use of Floorp after the effective date of such changes constitutes your acceptance of such changes.</p>"
+    },
+    "privacy": {
+        "pageTitle": "Privacy Policy - Floorp Browser",
+        "title": "Privacy Policy",
+        "content": "<p>At Floorp, we believe that privacy is fundamental to a healthy internet experience. This policy explains what data we collect, why we collect it, and how we use it.</p><p>'Personal information' means information that either directly identifies you (like your name or email address) or can be reasonably linked or combined to identify you.</p><p>Floorp is designed with privacy in mind. By default, we minimize data collection and do not track your browsing habits. Any telemetry or crash reports are strictly opt-in, requiring your explicit consent.</p><p><strong>Essential Telemetry Data</strong>: We may collect certain technical and settings data to provide core functionality of the Floorp browser. Some features require essential telemetry data to function properly. For example, checking for updates, providing security features, and verifying extension compatibility. These essential data points are kept to a minimum necessary to provide the functionality.</p><p><strong>Optional Telemetry Data</strong>: Other usage and diagnostic data is only collected if you consent to it. This data helps us improve Floorp and fix bugs.</p><p>When you enable specific features like sync services, some data may be processed to provide these services. This data is encrypted, and we only collect what's necessary for the functionality.</p><p>Your data belongs to you. You always have the choice and control over how your personal data is handled. You can change your privacy settings at any time.</p><p>We do not sell your personal data to third parties. For more information or questions about our privacy practices, please contact us through our support channels.</p><p>This Privacy Policy may be reviewed and updated periodically. If there are significant changes, we will announce them through blog posts, forums, or other channels.</p>"
+    },
+    "floorp12": {
+        "pageTitle": "Floorp 12 - Migration Guide",
+        "heading": "Welcome to the new Floorp",
+        "description": "Floorp 12 is here with a completely new codebase. Follow our migration guide to upgrade from Floorp 11 smoothly.",
+        "migrationTitle": "Migration from Floorp 11",
+        "migrationDescription": "Floorp 12 introduces a completely rewritten codebase for better performance and stability. Our migration guide will help you transition smoothly from Floorp 11. This migration guide will be available in 10 seconds.",
+        "viewMigrationGuide": "Start Migration Guide",
+        "viewBlogPost": "View Release Post"
+    },
+    "footer": {
+        "resources": "Resources",
+        "docs": "Floorp Docs",
+        "blog": "Floorp Blog",
+        "sns": "Connect with us",
+        "legal": "Legal",
+        "terms": "Terms of use",
+        "privacy": "Privacy policy",
+        "license": "LICENSE",
+        "copyright": "© 2025 Floorp Projects And Collaborate With Ablaze. All rights reserved."
+    }
+}

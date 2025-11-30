@@ -1,0 +1,188 @@
+{
+    "navbar": {
+        "download": "ダウンロード",
+        "blogAndReleaseNotes": "ブログとリリースノート",
+        "blog": "ブログ",
+        "news": "ニュース",
+        "releaseNotes": "リリースノート",
+        "resources": "リソース"
+    },
+    "heroSection": {
+        "title": "カスタマイズをみんなの手に",
+        "description": "お使いのブラウザーよりも高度なカスタマイズを可能に。スマートな Firefox をベースにした Floorp は、セキュリティとプライバシーを維持しながら、機能性と柔軟性を向上させます。",
+        "downloadButton": "ダウンロード",
+        "pageTitle": "Floorp ブラウザー"
+    },
+    "descriptionSection": {
+        "title": "Floorp ができること"
+    },
+    "customizationCard": {
+        "title": "柔軟な UI カスタマイズ",
+        "description": "Floorp の一番の特徴は、カスタマイズ性です。Floorp は Firefox 系で初めて UI のカスタマイズを可能にしたブラウザーとして知られます。誰もが自分の好みに合わせてブラウジング体験を調整し、誰もが簡単にウェブにアクセスできるように設計されています。",
+        "learnMore": "カスタマイズについて詳しく"
+    },
+    "discord": {
+        "pageTitle": "Floorp の Discord に参加しよう",
+        "heading": "Floorp の Discord コミュニティに参加しよう",
+        "description": "Floorp コミュニティとつながり、サポートを受け、プロジェクトに貢献しましょう。",
+        "joinButton": "Discord サーバーに参加",
+        "whyJoin": "Floorp の Discord に参加すると",
+        "reason1": "コミュニティと開発者から即時サポートを受けられます",
+        "reason2": "最新の Floorp ニュースとアップデートを受け取れます",
+        "reason3": "新しい機能や改善についての議論に参加できます",
+        "reason4": "世界中の Floorp ユーザーとつながれます"
+    },
+    "downloadPage": {
+        "pageTitle": "Floorp ブラウザーをダウンロード",
+        "title": "Floorp ブラウザーをダウンロード",
+        "subtitle": "基本的なデスクトッププラットフォームに対応",
+        "recommended": "あなたへのおすすめ",
+        "downloadFor": "{{title}} 版をダウンロード",
+        "windowsDownload": "Windows 版をダウンロード",
+        "windowsDownloadFull": "従来のインストーラー",
+        "windowsStubInstaller": "Windows 版をダウンロード",
+        "macDownload": "macOS 版をダウンロード",
+        "linuxDownload": "Linux 版をダウンロード (AMD64)",
+        "linuxAArch64Download": "Linux 版をダウンロード (AArch64)",
+        "portableVersion": "ポータブル版をダウンロード",
+        "otherPlatforms": "その他のプラットフォーム",
+        "winget": "Winget (Windows)",
+        "flatpak": "Flatpak (Linux)",
+        "brew": "Brew (macOS)",
+        "sourceCode": "ソースコード",
+        "latestVersion": "最新バージョン",
+        "releaseDate": "リリース日",
+        "systemRequirements": "システム要件",
+        "windows": "Windows 10・11",
+        "mac": "macOS 10.15 以降",
+        "linux": "Ubuntu 20.04 または他の現代的なディストリビューション",
+        "releaseNotes": "リリースノート",
+        "installInstructions": "インストール手順",
+        "downloadHashes": "ハッシュファイルをダウンロード",
+        "termsAgreement": "Floorp 製品群をダウンロードした場合、利用規約とプライバシポリシーに同意したことになります。",
+        "releasePreview": "リリースプレビュー",
+        "releasePreviewDescription": "次期バージョンの Floorp を正式リリース前にお試しいただけます。これらのプレビュービルドには実験的な機能や改善が含まれている場合があります。",
+        "downloadRC": "RC版をダウンロード",
+        "previewWarning": "警告：プレビュービルドは不安定な場合があり、バグを含む可能性があります。",
+        "previewNotice": "これはテスト用のリリース候補（RC）ビルドです。",
+        "previewFeatures": "v12.0.0の新機能：",
+        "previewSize": "ダウンロードサイズ",
+        "previewDate": "ビルド日時",
+        "previewSupport": "プレビュービルドのサポートは限定的です",
+        "windowsReq": "Windows 10 / 11",
+        "macUniversal": "Universal",
+        "linuxArch": "x86_64",
+        "linuxPkg": "Flatpak / PPA / Tarball",
+        "windowsInstaller": "Windows インストーラー",
+        "onlineInstaller": "オンラインインストーラー (推奨)",
+        "smallSize": "軽量",
+        "onlineInstallerDesc": "システムに最適な最新バージョンを自動的にダウンロードします。",
+        "offlineInstaller": "オフラインインストーラー",
+        "fullSize": "フルサイズ",
+        "offlineInstallerDesc": "必要なファイルが全て含まれています。オフライン環境でのインストールに適しています。",
+        "reqWindows": "Windows 10 (1809+) または Windows 11",
+        "reqProc": "64ビットプロセッサ (x86_64)",
+        "reqRam": "4GB RAM 以上推奨",
+        "otherOptions": "その他のオプション",
+        "portableDesc": "インストール不要で利用可能",
+        "commandLine": "コマンドライン",
+        "macInstaller": "macOS インストーラー",
+        "universalBinary": "Universal Binary",
+        "intelSilicon": "Intel & Apple Silicon",
+        "macDesc": "Intel Mac および Apple Silicon (M1/M2/M3) Mac の両方に対応しています。",
+        "macInstallGuide": "ディスクイメージを開いた後、Floorp アイコンを Applications フォルダにドラッグしてください。",
+        "reqMac": "macOS 10.15 (Catalina) 以降",
+        "reqMacProc": "Intel または Apple Silicon プロセッサ",
+        "homebrew": "Homebrew",
+        "viewHomebrew": "Homebrew で見る",
+        "linuxPackages": "Linux パッケージ",
+        "tarballX64": "Tarball (x86_64)",
+        "standard": "標準",
+        "downloadTar": ".tar.xz をダウンロード",
+        "tarballArm": "Tarball (AArch64)",
+        "arm": "ARM",
+        "downloadTarArm": ".tar.xz (ARM) をダウンロード",
+        "packageManagers": "パッケージマネージャー",
+        "view": "表示",
+        "aptDeb": "PPA (Debian/Ubuntu)",
+        "ppa": "PPA (Ubuntu/Debian)",
+        "setup": "セットアップ",
+        "archLinux": "Arch Linux ユーザーの方は、AUR から `floorp-bin` を利用可能です。",
+        "wingetDesc": "Windows パッケージマネージャー",
+        "viewWinstall": "Winstall で見る",
+        "brewDesc": "macOS パッケージマネージャー",
+        "viewCask": "Cask を見る",
+        "flatpakDesc": "Linux アプリケーションサンドボックス",
+        "viewFlathub": "Flathub で見る",
+        "legalPrivacy": "法的情報とプライバシー"
+    },
+    "featureCards": {
+        "browsing": {
+            "title": "多様なウェブページの閲覧方法を提供",
+            "description": "Floorp はタブグループに加え、ログイン情報を分離できるコンテナー機能を統合したワークスペース機能を搭載。さらに、ウェブパネルを利用して、SNS やチャットに簡単にアクセスできます。",
+            "linkText": "Floorp の独自機能について詳しく"
+        },
+        "controls": {
+            "title": "様々な操作方法をサポート",
+            "description": "マウスジェスチャーやカスタマイズ可能なキーボードショートカットを使用して、より効率的にブラウジングできます。もちろん、マウスカーソルでも簡単に操作できるように設計されています。",
+            "linkText": "Floorp のジェスチャー機能について詳しく"
+        },
+        "development": {
+            "title": "開発・研究志向",
+            "description": "Floorp は実験的なブラウザー開発を積極的に行っています。新しい技術やアイデアを日々取り入れ、コミュニティからのフィードバックをもとに精力的に改善を続けるブラウザーです。",
+            "linkText": "Floorp の開発体制について詳しく"
+        },
+        "sustainable": {
+            "title": "持続可能なウェブを目指して",
+            "description": "ユーザーの権利を尊重し、オープンで持続可能なウェブエコシステムの構築に貢献します。次世代に繋ぐインターネットの未来を共に創りましょう。",
+            "linkText": "Floorp が行っていること"
+        }
+    },
+    "aboutUs": {
+        "title": "私たちについて",
+        "projectName": "Floorp プロジェクト",
+        "projectDescription": "Floorp は 2021 年に日本で始まった、Firefox 派生のオープンソースブラウザープロジェクトです。「ユーザー中心」の理念のもと、より高いカスタマイズ性とプライバシー保護を実現し、ウェブブラウジングの新たな可能性を追求しています。",
+        "github": "GitHub",
+        "documentation": "ドキュメント",
+        "philosophy": {
+            "title": "私たちの理念",
+            "description": "私たちは、ウェブが誰でも自由にアクセスできる場所であるべきだと信じています。Floorp は、ユーザーのプライバシーを尊重し、オープンソースの精神を大切にしながら、より良いウェブ体験を提供することを目指しています。",
+            "donateButton": "GitHub Sponsors で寄付"
+        },
+        "community": {
+            "title": "コミュニティに参加する",
+            "description": "開発に貢献、翻訳、フィードバックの提供など、さまざまな形で Floorp プロジェクトに参加できます。私たちはオープンソースの精神を大切にし、コミュニティからの貢献を歓迎しています。",
+            "joinButton": "Discord コミュニティに参加"
+        }
+    },
+    "terms": {
+        "pageTitle": "利用規約 - Floorp ブラウザー",
+        "title": "利用規約",
+        "content": "<p>この利用規約（以下「本規約」）は、Floorp ブラウザーおよび関連サービスのご利用に適用されます。Floorp を使用することにより、本規約に同意したものとみなされます。</p><p>Floorp は Firefox から派生したオープンソースブラウザーです。Floorp ソフトウェアは、Mozilla Public License を含む様々なオープンソースライセンスの条件に基づいて提供されています。これにより、ユーザーは Floorp を使用、複製、変更、配布することができますが、オープンソースライセンスと Floorp プロジェクトの商標ガイドラインに従う必要があります。</p><p>Floorp の使用に関して、以下の点をご了承ください：</p><ol><li>ソフトウェアは「現状のまま」提供され、明示または黙示を問わず、いかなる保証もありません。</li><li>適用法令で許可される範囲内で、Floorp プロジェクトは、Floorp の使用または使用不能に起因するいかなる責任も負いません。</li><li>あなたは Floorp の使用による結果について責任を負うものとします。</li><li>Floorp プロジェクトは、プライバシーポリシーに記載されている通り、あなたのプライバシーを尊重します。</li></ol><p>Floorp プロジェクトは、必要に応じて本規約を更新することがあります。更新された規約はオンラインで公開され、更新が実質的な場合は、ブログ投稿やフォーラムなど、Floorp プロジェクトが通常使用する連絡手段を通じて通知されます。更新後も Floorp を継続して使用することにより、更新された規約に同意したものとみなされます。</p>"
+    },
+    "privacy": {
+        "pageTitle": "プライバシーポリシー - Floorp ブラウザー",
+        "title": "プライバシーポリシー",
+        "content": "<p>Floorp では、ユーザーのプライバシー保護を最優先事項と考えています。このポリシーでは、私たちがどのようなデータを収集し、なぜ収集し、どのように利用するかを説明します。</p><p>「個人情報」とは、あなたを直接特定する情報（名前やメールアドレスなど）、またはリンクや組み合わせによってあなたを合理的に特定できる情報を指します。</p><p>Floorp はプライバシーを重視して設計されています。デフォルトでは、データ収集を最小限に抑え、閲覧習慣を追跡しません。テレメトリやクラッシュレポートはオプトイン（明示的な同意が必要）です。</p><p><strong>必須のテレメトリデータ</strong>：Floorp のコア機能を提供するため、技術データや設定データなどの特定の情報を収集することがあります。一部の機能は、適切に動作するために必須のテレメトリデータを送信する必要があります。例えば、アップデートの確認、セキュリティ機能の提供、拡張機能の互換性確認などです。これらの必須データは、機能を提供するために最小限に抑えられています。</p><p><strong>オプションのテレメトリデータ</strong>：その他の使用状況や診断に関するデータは、あなたの同意がある場合にのみ収集されます。これらのデータは、Floorp の改善やバグの修正に役立てられます。</p><p>同期などの特定の機能を有効にすると、それらのサービスを提供するために一部のデータが処理される場合があります。このデータは暗号化され、機能に必要な最小限の情報のみを収集します。</p><p>あなたのデータはあなた自身のものです。個人データの取り扱いに関する選択権と制御権は常にあなたにあります。プライバシー設定はいつでも変更できます。</p><p>私たちはあなたの個人データを第三者に販売することはありません。プライバシー慣行に関する詳細情報やご質問については、サポートチャンネルを通じてお問い合わせください。</p><p>このプライバシーポリシーは定期的に見直され、更新される場合があります。重要な変更がある場合は、ブログ投稿やフォーラムなどで通知します。</p>"
+    },
+    "floorp12": {
+        "pageTitle": "Floorp 12 - 移行ガイド",
+        "heading": "全く新しい Floorp へようこそ",
+        "description": "Floorp 12 が完全に新しいコードベースで登場しました。Floorp 11 からのスムーズなアップグレードのために移行ガイドをご活用ください。",
+        "migrationTitle": "Floorp 11 からの移行",
+        "migrationDescription": "Floorp 12 では、パフォーマンスと安定性向上のため、コードベースが完全に書き直されました。移行ガイドを使用して、Floorp 11 からスムーズに移行しましょう。",
+        "viewMigrationGuide": "移行ガイドを開始",
+        "viewBlogPost": "リリース記事を見る"
+    },
+    "footer": {
+        "resources": "リソース",
+        "docs": "Floorp Docs",
+        "blog": "Floorp ブログ",
+        "sns": "SNS",
+        "legal": "法的情報",
+        "terms": "利用規約",
+        "privacy": "プライバシーポリシー",
+        "license": "ライセンス",
+        "copyright": "© 2025 Floorp プロジェクト・Ablaze との協力のもと。すべての権利を保有。"
+    }
+}
