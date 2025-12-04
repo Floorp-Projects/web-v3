@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import { useLocaleFromPath } from "../hooks/useLocaleFromPath";
 import {
   CheckCircle2,
   Command,
@@ -29,6 +30,7 @@ type Platform = "windows" | "mac" | "linux";
 
 export default function DownloadPage() {
   const { t } = useTranslation();
+  useLocaleFromPath();
   const [releaseInfo, setReleaseInfo] = useState<GitHubRelease | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

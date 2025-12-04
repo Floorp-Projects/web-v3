@@ -1,9 +1,11 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { AlertCircle, ExternalLink, FileText } from "lucide-react";
+import { useLocaleFromPath } from "../hooks/useLocaleFromPath";
 
 export default function Floorp12Page() {
   const { t } = useTranslation();
+  useLocaleFromPath();
 
   useEffect(() => {
     document.title = t("floorp12.pageTitle");
@@ -66,4 +68,3 @@ export default function Floorp12Page() {
     </div>
   );
 }
-

@@ -7,6 +7,7 @@ import { Menu } from "lucide-react";
 import { ThemeImage } from "./ThemeImage";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -19,7 +20,10 @@ export default function Navbar() {
   return (
     <div className="navbar bg-neutral text-neutral-content shadow-sm px-4 py-2 sticky top-0 z-50 backdrop-blur-sm bg-neutral/95">
       <div className="flex flex-row justify-between items-center w-full max-w-[80rem] mx-auto">
-        <Link to="/" className="normal-case text-xl hover:opacity-80 transition-opacity">
+        <Link
+          to="/"
+          className="normal-case text-xl hover:opacity-80 transition-opacity"
+        >
           <ThemeImage
             lightSrc="/Floorp_Logo_B_Dark.svg"
             darkSrc="/Floorp_Logo_B_Dark.svg"
@@ -31,7 +35,10 @@ export default function Navbar() {
         </Link>
 
         <div className="dropdown dropdown-left md:hidden">
-          <label tabIndex={0} className="btn btn-ghost hover:bg-base-content/10">
+          <label
+            tabIndex={0}
+            className="btn btn-ghost hover:bg-base-content/10"
+          >
             <Menu className="w-6 h-6" />
           </label>
           <ul
@@ -39,9 +46,11 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-lg bg-neutral rounded-box w-52"
           >
             <li>
-              <Link 
-                to="/download" 
-                className={isActive("/download") ? "text-primary font-bold" : ""}
+              <Link
+                to="/download"
+                className={isActive("/download")
+                  ? "text-primary font-bold"
+                  : ""}
               >
                 {t("navbar.download")}
               </Link>
@@ -85,6 +94,9 @@ export default function Navbar() {
                 </ul>
               </details>
             </li>
+            <li className="mt-2 border-t border-base-content/20 pt-2">
+              <LanguageSwitcher />
+            </li>
           </ul>
         </div>
 
@@ -97,7 +109,12 @@ export default function Navbar() {
                 </summary>
                 <ul className="bg-neutral rounded-t-none p-2 z-[1] shadow-lg">
                   <li>
-                    <a href="https://blog.floorp.app/" className="hover:text-primary transition-colors">{t("navbar.blog")}</a>
+                    <a
+                      href="https://blog.floorp.app/"
+                      className="hover:text-primary transition-colors"
+                    >
+                      {t("navbar.blog")}
+                    </a>
                   </li>
                   <li>
                     <a
@@ -110,7 +127,10 @@ export default function Navbar() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://blog.floorp.app/categories/release/" className="hover:text-primary transition-colors">
+                    <a
+                      href="https://blog.floorp.app/categories/release/"
+                      className="hover:text-primary transition-colors"
+                    >
                       {t("navbar.releaseNotes")}
                     </a>
                   </li>
@@ -134,7 +154,12 @@ export default function Navbar() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://docs.floorp.app" className="hover:text-primary transition-colors">{t("footer.docs")}</a>
+                    <a
+                      href="https://docs.floorp.app"
+                      className="hover:text-primary transition-colors"
+                    >
+                      {t("footer.docs")}
+                    </a>
                   </li>
                 </ul>
               </details>
@@ -148,6 +173,7 @@ export default function Navbar() {
           >
             {t("navbar.download")}
           </Link>
+          <LanguageSwitcher />
         </div>
       </div>
     </div>

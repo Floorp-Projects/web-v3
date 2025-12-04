@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useLocaleFromPath } from "../hooks/useLocaleFromPath";
 
 export default function TermsPage() {
   const { t } = useTranslation();
+  useLocaleFromPath();
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
 
@@ -22,4 +24,3 @@ export default function TermsPage() {
     </div>
   );
 }
-

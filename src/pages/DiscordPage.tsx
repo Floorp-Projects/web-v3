@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { useLocaleFromPath } from "../hooks/useLocaleFromPath";
 
 export default function DiscordPage() {
   const { t } = useTranslation();
+  useLocaleFromPath();
 
   useEffect(() => {
     document.title = t("discord.pageTitle");
@@ -65,4 +67,3 @@ export default function DiscordPage() {
     </div>
   );
 }
-
