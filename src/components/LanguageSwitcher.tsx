@@ -10,6 +10,7 @@ import { type SupportedLanguage, supportedLanguages } from "../i18n/i18n";
 const languageNames: Record<SupportedLanguage, string> = {
     "en-US": "English",
     "ja-JP": "日本語",
+    "ru":    "Русский",
 };
 
 export default function LanguageSwitcher() {
