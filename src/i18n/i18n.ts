@@ -3,7 +3,7 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import HttpBackend from "i18next-http-backend";
 
-export const supportedLanguages = ["en-US", "ja-JP"] as const;
+export const supportedLanguages = ["en-US", "ja-JP", "ru"] as const;
 export type SupportedLanguage = (typeof supportedLanguages)[number];
 
 i18n
