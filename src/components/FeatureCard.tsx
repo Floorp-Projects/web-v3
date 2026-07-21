@@ -87,8 +87,7 @@ export function FeatureCardSection() {
         {
             title: t("featureCards.browsing.title"),
             description: t("featureCards.browsing.description"),
-            linkUrl:
-                "https://docs.floorp.app/docs/features/how-to-use-workspaces",
+            linkUrl: "https://docs.floorp.app/docs/features/workspaces",
             linkText: t("featureCards.browsing.linkText"),
             imageSrc: "/Workspaces.svg",
             imageAlt: "Workspaces Feature",
@@ -96,7 +95,7 @@ export function FeatureCardSection() {
         {
             title: t("featureCards.controls.title"),
             description: t("featureCards.controls.description"),
-            linkUrl: "https://docs.floorp.app/docs/features/how-to-use-gesture",
+            linkUrl: "https://docs.floorp.app/docs/features/mouse-gestures",
             linkText: t("featureCards.controls.linkText"),
             imageSrc: "/MouseGesture.svg",
             imageAlt: "Mouse Gesture Feature",
